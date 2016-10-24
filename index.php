@@ -7,5 +7,6 @@
     <body>
         <?php echo("Welcome to Clabki!!!"); ?>
         <?php echo("Working with Clabki in OpenShift!!!"); ?>
+        <?php echo("Working with Clabki in OpenShift Oh yeah! !!!!"); ?>
     </body>
 </html>
