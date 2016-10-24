@@ -1,9 +1,57 @@
 body {
 	background: #fff;
+	margin: 0;
 }
 
 header{
-	background-color: #FFFF00;
+    align-items: center;
+	background-color: #F1cd4e;
+    display: flex;
+	height: 72px;
     margin-right: 0;
     margin-left: 0;
+}
+
+header li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+#main_image{
+	background-image: url("../img/background.jpg");
+	height: 600px;
+}
+
+.logo{
+	align-items: center;
+	display: flex;
+	margin-left: 2%;
+	width: 60%;
+}
+
+.logo a img{
+	float:left;
+	margin: 5%;
+}
+
+.logo p{
+	float:left;
+	height: auto; 
+	margin-left: 3%;
+	width: 70%; 
+}
+.social_networks{
+	display: inline-block;
+	width: 20%;
+}
+
+.navigation{
+	color: #000000;
+	display: inline-block;
+	width: 20%;
+}
+
+.navigation a{
+	color: black;
+	text-decoration: none;
 }
