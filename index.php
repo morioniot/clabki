@@ -11,7 +11,7 @@
 			<a href="http://wordpress-morion.rhcloud.com/" >
 				<img src="./Public/img/logoLarge.png" alt="Clabki">
 			</a>
-			<p>Deja una huella siguiendo huellas</p>
+			<p>Deja tu huella siguiendo huellas</p>
 		</div>
 		<nav class="social_networks">
 			<ul>
@@ -36,7 +36,9 @@
 		</nav>
 	</header> 
 	<div id="main_image">
-		
+		<div class="buttons">
+			<img src="./Public/img/btn_dequesetrata.png" alt="¿De qué se trata?">
+		</div>
 	</div>
 </body>
 </html>

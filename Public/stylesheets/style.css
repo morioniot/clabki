@@ -20,7 +20,20 @@ header li{
 #main_image{
 	background-image: url("../img/background.jpg");
 	height: 600px;
+	position: relative;
 }
+
+.buttons{
+	cursor:pointer;
+	left:1%;
+	top:70%;
+	position: absolute;
+	transition: opacity .25s ease-in-out;
+}
+
+.buttons:hover {
+      opacity: 0.5;
+      }
 
 .logo{
 	align-items: center;
