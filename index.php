@@ -1,4 +1,4 @@
-.<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -6,5 +6,6 @@
     </head>
     <body>
         <?php echo("Welcome to Clabki!!!"); ?>
+        <?php echo("Working with Clabki in OpenShift!!!"); ?>
     </body>
 </html>
