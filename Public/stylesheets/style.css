@@ -4,7 +4,7 @@ body {
 }
 
 header{
-    align-items: center;
+/*    align-items: center;*/
 	background-color: #F1cd4e;
     display: flex;
 	height: 72px;
@@ -17,8 +17,19 @@ header li{
 	list-style-type: none;
 }
 
+header nav ul{
+	bottom: 0;
+	margin: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+.logo p{
+	font-family: "Lucida Console";
+	font-weight: bold;
+}
 #main_image{
-	background-image: url("../img/background.jpg");
+	background-image: url("../img/background_V1.jpg");
 	height: 600px;
 	position: relative;
 }
@@ -26,14 +37,9 @@ header li{
 .buttons{
 	cursor:pointer;
 	left:1%;
-	top:70%;
+	top:80%;
 	position: absolute;
-	transition: opacity .25s ease-in-out;
 }
-
-.buttons:hover {
-      opacity: 0.5;
-      }
 
 .logo{
 	align-items: center;
@@ -55,12 +61,14 @@ header li{
 }
 .social_networks{
 	display: inline-block;
+	position: relative;
 	width: 20%;
 }
 
 .navigation{
 	color: #000000;
 	display: inline-block;
+	position: relative;
 	width: 20%;
 }
 
