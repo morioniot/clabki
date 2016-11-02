@@ -14,25 +14,23 @@ p span {
 }
 
 #team_section {
-    background-color: #ababab;
-    height: 350px;
+    background-color: white;
+    padding: 20px 0;
 }
 
 #team_container {
     align-items: center;
-    background-color: #f1cd4e;
     display: flex;
-    height: 310px;
-    justify-content: center;
+    justify-content: space-around;
     margin: auto;
-    width: 1000px;
+    max-width: 1000px;
+    width: 80%;
 }
 
 .team_member_container {
-    background-color: blue;
     border-radius: 5px;
     height: 280px;
-    margin: 0 20px;
+    margin: 20px;
     width: 260px;
 }
 
@@ -67,4 +65,10 @@ p span {
     color: white;
     padding: 5px;
     text-align: center;
+}
+
+@media screen and (max-width: 950px) {
+    #team_container {
+        flex-wrap: wrap;
+    }
 }
