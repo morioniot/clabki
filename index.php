@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0" />
 	<link rel="stylesheet" href="./Public/stylesheets/style.css" type="text/css" media="all">
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript" src="./Public/js/main.js"></script>
@@ -36,9 +36,9 @@
 		</nav>
 	</header> 
 	<div id="main_image">
-		<div class="buttons">
+<!-- 		<div class="buttons">
 			<img id="deQueSeTrataButton"src="./Public/img/btn_dequesetrata.png" alt="¿De qué se trata?">
-		</div>
+		</div> -->
 	</div>
 	<div id="content">
 		<section class="section" id="section_DeQueSeTrata"> 
