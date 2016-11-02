@@ -169,7 +169,7 @@ footer .container{
 
 /* Responsive */
 
-@media (max-width: 1190px) {
+@media (max-width: 980px) {
 	header{
 		height: 200px;
 	}
@@ -239,7 +239,7 @@ footer .container{
 	}
 }
 
-@media  (max-width: 955px) {
+@media  (max-width: 800px) {
 	.section-header h2{
 		font-size: 60px;
 		margin-top: 8%;
