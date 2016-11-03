@@ -20,8 +20,13 @@ p span {
 
 #team_container {
     align-items: center;
+    -webkit-align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: space-around;
+    -webkit-justify-content: space-around;
     margin: auto;
     max-width: 1000px;
     width: 80%;
@@ -69,6 +74,7 @@ p span {
 
 @media screen and (max-width: 950px) {
     #team_container {
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 }
