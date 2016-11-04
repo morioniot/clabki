@@ -10,28 +10,28 @@ header {
 }
 
 #main_container {
-    background-color: #ccc;
+    /*background-color: #ccc;*/
     margin: 0 auto;
     max-width: 950px;
     width: 100%;
 }
 
 #info_title {
-    background-color: #666;
+    /*background-color: #666;*/
     font-size: 40px;
     padding: 20px;
     text-align: center;
 }
 
 #info_paragraph {
-    background-color: #aaa;
+    /*background-color: #aaa;*/
     font-size: 18px;
-    padding: 10px 30px;
+    padding: 10px 30px 30px 30px;
     text-align: center;
 }
 
 #join_us_form {
-    background-color: #666;
+    background-color: #999;
     display: flex;
     font-size: 16px;
     padding: 20px;
@@ -52,26 +52,67 @@ header {
 }
 
 .form_left_column, .form_right_column {
-    flex: 1;
     flex-direction: column;
 }
 
-.small_field, .large_field {
-    padding: 20px 0;
+.form_left_column {
+    flex: 3;
+    /*background-color: crimson;*/
 }
+
+.form_right_column {
+    flex: 4;
+    /*background-color: darkblue;*/
+}
+
+.small_field, .large_field {
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 80%;
+}
+
+/*.small_field {
+    background-color: darkcyan;
+}
+
+.large_field {
+    background-color: darkgoldenrod;
+}*/
 
 .small_field input, .large_field textarea {
     border-radius: 5px;
+    box-sizing: border-box;
     padding: 7px;
-    width: 286px;
+    width: 100%;
 }
 
 .small_field input {
-    height: 26px;
+    height: 32px;
 }
 
 .large_field textarea {
-    box-sizing: border-box;
     height: 96px;
-    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+
+    #join_us_form {
+        flex-wrap: wrap;
+    }
+
+    .form_left_column, .form_right_column {
+        min-width: 405px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .form_left_column, .form_right_column {
+        min-width: 320px;
+    }
+
+    .small_field, .large_field {
+        box-sizing: border-box;
+        width: 100%;
+    }
 }
