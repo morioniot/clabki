@@ -12,13 +12,13 @@ body {
 }
 
 header{
-/*    align-items: center;*/
+
 	background-color: #F1cd4e;
-	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-	display: -ms-flexbox;      /* TWEENER - IE 10 */
-	display: -webkit-flex;     /* NEW - Chrome */
-	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;     
+	display: -webkit-flex;    
+	display: flex;         
 	height: 72px;
     margin-right: 0;
     margin-left: 0;
@@ -40,6 +40,7 @@ header nav ul{
 	background-image: url("../img/background_V1.jpg");
 	height: 600px;
 	position: relative;
+	width: 100%
 }
 
 
@@ -69,6 +70,7 @@ header nav ul{
 
 .logo{
 	align-items: center;
+	-webkit-align-items: center; /* Safari 7.0+ */	
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -167,6 +169,7 @@ footer{
 
 footer .container{
     align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -230,9 +233,8 @@ footer .container{
 		font-size: 16px;
 	}
 
-
 	footer{
-		height: 300px;
+		height: 200px;
 	}
 
 	footer .container{
@@ -241,6 +243,7 @@ footer .container{
 
 	.footer_item{
 		align-items: center;
+		-webkit-align-items: center; /* Safari 7.0+ */
 	  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 	  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
 	  	display: -ms-flexbox;      /* TWEENER - IE 10 */

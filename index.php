@@ -14,7 +14,7 @@
 			<a href="#" >
 				<img src="./Public/img/logoLarge.png" alt="Clabki">
 			</a>
-			<p>DEJA TU HUELLA SIGUIENDO HUELLAS</p>
+			<p>DEJA TU HUELLA SIGUIENDO HUELLAS </p>
 		</div>
 		<nav class="social_networks" >
 			<ul id="boton_siguenos">
