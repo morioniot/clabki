@@ -33,6 +33,7 @@ header {
 #join_us_form {
     background-color: #999;
     display: flex;
+    flex-direction: column;
     font-size: 16px;
     padding: 20px;
 }
@@ -42,8 +43,14 @@ header {
     padding: 5px 0;
 }
 
+#form_fields_container {
+    display: flex;
+}
+
 #button_container {
+    /*background-color: darkolivegreen;*/
     text-align: center;
+    padding-top: 7px;
 }
 
 #button_container input[type="submit"] {
@@ -65,19 +72,19 @@ header {
     /*background-color: darkblue;*/
 }
 
-.small_field, .large_field {
+.small_field, .large_field, .check_box_container {
     margin: 0 auto;
     padding: 20px 10px;
     width: 80%;
 }
 
-/*.small_field {
-    background-color: darkcyan;
+.small_field {
+    /*background-color: darkcyan;*/
 }
 
 .large_field {
-    background-color: darkgoldenrod;
-}*/
+    /*background-color: darkgoldenrod;*/
+}
 
 .small_field input, .large_field textarea {
     border-radius: 5px;
@@ -94,9 +101,19 @@ header {
     height: 96px;
 }
 
+.check_box_container {
+    /*background-color: darkred;*/
+    padding: 7px 10px;
+}
+
+.check_box_container p {
+    display: inline-block;
+    margin-left: 5px;
+}
+
 @media screen and (max-width: 850px) {
 
-    #join_us_form {
+    #form_fields_container {
         flex-wrap: wrap;
     }
 
@@ -111,7 +128,7 @@ header {
         min-width: 320px;
     }
 
-    .small_field, .large_field {
+    .small_field, .large_field, .check_box_container {
         box-sizing: border-box;
         width: 100%;
     }
