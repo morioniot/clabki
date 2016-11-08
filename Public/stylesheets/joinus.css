@@ -32,7 +32,11 @@ header {
 
 #join_us_form {
     background-color: #999;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: column;
     flex-direction: column;
     font-size: 16px;
     padding: 20px;
@@ -44,6 +48,9 @@ header {
 }
 
 #form_fields_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
 }
 
@@ -59,15 +66,22 @@ header {
 }
 
 .form_left_column, .form_right_column {
+    -webkit-flex-direction: column;
     flex-direction: column;
 }
 
 .form_left_column {
+    -webkit-box-flex: 3;   /* OLD - iOS 6-, Safari 3.1-6 */
+    -webkit-flex: 3;       /* Safari 6.1+. iOS 7.1+, BB10 */
+    -ms-flex: 3;           /* IE 10 */
     flex: 3;
     /*background-color: crimson;*/
 }
 
 .form_right_column {
+    -webkit-box-flex: 4;   /* OLD - iOS 6-, Safari 3.1-6 */
+    -webkit-flex: 4;       /* Safari 6.1+. iOS 7.1+, BB10 */
+    -ms-flex: 4;           /* IE 10 */
     flex: 4;
     /*background-color: darkblue;*/
 }
@@ -114,6 +128,7 @@ header {
 @media screen and (max-width: 850px) {
 
     #form_fields_container {
+        -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
     }
 
