@@ -12,9 +12,9 @@
 	<header class="header">
 		<div class="logo">
 			<a href="#" >
-				<img src="./Public/img/logoLarge.png" alt="Clabki">
+				<img src="./Public/img/logo.png" alt="Clabki">
 			</a>
-			<p>DEJA TU HUELLA SIGUIENDO HUELLAS </p>
+<!-- 			<p>DEJA TU HUELLA SIGUIENDO HUELLAS </p> -->
 		</div>
 		<nav class="social_networks" >
 			<ul id="boton_siguenos">
@@ -36,9 +36,7 @@
 		</nav>
 	</header> 
 	<div id="main_image">
-<!-- 		<div class="buttons">
-			<img id="deQueSeTrataButton"src="./Public/img/btn_dequesetrata.png" alt="¿De qué se trata?">
-		</div> -->
+			<img src="./Public/img/background_V2.jpg" alt="">
 	</div>
 	<div id="content">
 		<section class="section" id="section_DeQueSeTrata"> 
@@ -47,7 +45,7 @@
 					<h2>¿DE QUÉ SE TRATA?</h2>
 				</div>
 				<div class="sub_section"> 
-					<h3> COMUNIDAD </h3>
+					<h3> Comunidad </h3>
 					<div class="text_description"> 
 						<p>
 							En Clabki creemos que podemos hacer mucho más por las mascotas perdidas. Por eso buscamos crear la comunidad más grande de personas con una idea en común: “No queremos más mascotas lejos de su hogar“.
@@ -60,36 +58,43 @@
 					</div>
 				</div>
 				<div class="sub_section"> 
-					<h3> UNA MASCOTA CLABKI </h3>
+					<h3> Una mascota Clabki </h3>
 					<div class="text_description"> 
 						<p>
-							Una mascota Clabki es una mascota que tiene un dispositivo inteligente en su collar que emite constantemente un código con el cual puede ser reconocida por los miembros de la comunidad que se encuentren cerca de ella.
+							Una mascota Clabki es una mascota que tiene un dispositivo inteligente en su collar que emite una señal con la cual puede ser reconocida por los miembros de la comunidad que se encuentren cerca de ella.
 						</p>
 					</div>
 					<div class="img_description">
 					</div>
 				</div>
 				<div class="sub_section"> 
-					<h3> EN CASO DE PÉRDIDA </h3>
+					<h3> ¿Qué pasa en caso de pérdida? </h3>
 					<div class="text_description"> 
 						<p>
 							En caso de que una mascota Clabki se pierda, su dueño puede reportarla a través de la misma aplicación para que el radar formado por nuestra comunidad pueda detectarla.
 							<br>
 							<br>
-							A partir de ese momento, cualquier miembro de nuestra comunidad que pase cerca de la mascota le reportará automáticamente a su dueño la posición en la cual se generó el encuentro. Diferentes encuentros con los miembros de la comunidad le informarán al dueño los lugares por los cuales se está moviendo su mascota.
-							<br>
-							<br>
-							Una vez la mascota esté en su hogar de nuevo te avisaremos que has sido parte fundamental de un final feliz. Al final del día todos habremos ganado.
+							A partir de ese momento, cualquier miembro de Clabki que pase cerca de la mascota le reportará automáticamente a su dueño la ubicación en la cual se generó el encuentro. Diferentes encuentros le informarán al dueño los lugares por los cuales se está moviendo su mascota.
 						</p>
 					</div>
 					<div class="img_description">
 					</div>
 				</div>
 				<div class="sub_section"> 
-					<h3> !HAZ PARTE! </h3>
+					<h3> El reencuentro </h3>
 					<div class="text_description"> 
 						<p>
-							Anímate a ser parte del radar más grande de mascotas perdidas. Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, haces bici, vas al trabajo, etc. Entre más seamos, más efectiva será nuestra búsqueda y menos mascotas en las calles habrá.
+							Una vez la mascota esté con su familia de nuevo te avisaremos que has sido parte fundamental de un final feliz. Al final del día todos habremos ganado.
+						</p>
+					</div>
+					<div class="img_description">
+					</div>
+				</div>				
+				<div class="sub_section"> 
+					<h3> !Haz Parte! </h3>
+					<div class="text_description"> 
+						<p>
+							Anímate a ser parte del radar más grande de mascotas perdidas. Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, montas bici, vas al trabajo, o realizas cualquier actividad de tu vida cotidiana. Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.
 						</p>
 					</div>
 					<div class="img_description">
