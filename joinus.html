@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Coiny|Slabo+27px" rel="stylesheet">
         <link rel="stylesheet" href="./Public/stylesheets/joinus.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
         <meta charset="utf-8">
@@ -9,7 +10,7 @@
     <body>
         <header>
         </header>
-        <section>
+        <section id="main_container">
             <h1 id="info_title">¡Haz parte!</h1>
             <p id="info_paragraph">
                 Te en lo acudieron ah recababan discipula talentazo distraido.
@@ -22,24 +23,30 @@
                 tal pretendia.
             </p>
             <form id="join_us_form" action="index.html" method="post">
-                <div class="">
-                    <div class="small_field">
-                        <label for="name">Nombre:</label>
-                        <input type="text" name="name" id="name">
+                <div id="form_fields_container">
+                    <div class="form_left_column">
+                        <div class="small_field">
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="small_field">
+                            <label for="email">Email:</label>
+                            <input type="text" name="email" id="email">
+                        </div>
                     </div>
-                    <div class="small_field">
-                        <label for="email">Email:</label>
-                        <input type="text" name="email" id="email">
+                    <div class="form_right_column">
+                        <div class="large_field">
+                            <label for="opinion">Lo que pienso:</label>
+                            <textarea name="opinion" id="opinion"></textarea>
+                        </div>
+                        <div class="check_box_container">
+                            <input type="checkbox" name="interested" value="yes">
+                            <p>Quiero saber más sobre el collar</p>
+                        </div>
                     </div>
                 </div>
-                <div class="">
-                    <div class="large_field">
-                        <label for="opinion">Lo que pienso:</label>
-                        <textarea name="opinion" id="opinion"></textarea>
-                    </div>
-                    <div id="button_container">
-                        <input type="submit" value="¡Quiero ser parte!">
-                    </div>
+                <div id="button_container">
+                    <input type="submit" value="¡Quiero ser parte!">
                 </div>
             </form>
         </section>
