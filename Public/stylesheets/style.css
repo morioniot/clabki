@@ -229,8 +229,8 @@ div.text_image_group div.img_description {
 
 
 .text_description{
-	border: red;
-	border-style: solid;
+/*	border: red;
+	border-style: solid;*/
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -268,8 +268,8 @@ div.text_image_group div.img_description {
 }
 
 .img_description{
-	border: black;
-	border-style: solid;
+/*	border: black;
+	border-style: solid;*/
 	height: 250px;
 	width: 30%;
 }
