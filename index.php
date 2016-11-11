@@ -44,64 +44,132 @@
 				<div class="section-header">
 					<h2>¿DE QUÉ SE TRATA?</h2>
 				</div>
-				<div class="sub_section"> 
-					<h3> Comunidad </h3>
-					<div class="text_description"> 
-						<p>
-							En Clabki creemos que podemos hacer mucho más por las mascotas perdidas. Por eso buscamos crear la comunidad más grande de personas con una idea en común: “No queremos más mascotas lejos de su hogar“.
-							<br>
-							<br>
-							Gracias a una aplicación móvil, cada miembro de la comunidad se convertirá en un radar que vigilará la ciudad en busca de mascotas Clabki que hayan sido reportadas como perdidas.
-						</p>
-					</div>
-					<div class="img_description">
-					</div>
+				<div  id="comunidad_sub_section" class="sub_section"> 
+					<section id="comunidad_sub_section_container" class="sub_section_container"> 
+						<div class="text_description"> 
+							<div class="text_container"> 
+								<p class="title"> COMUNIDAD </p>
+								<hr class="separator">
+								<p class= "text_content">
+									En <span> Clabki </span> creemos que podemos hacer mucho más por las mascotas perdidas. Por eso buscamos crear la comunidad más grande de personas con una idea en común: 
+									<br>
+									<span> “No queremos más mascotas lejos de su hogar“ </span>
+								</p>
+							</div>
+						</div>
+						<div class="img_description">
+						</div>						
+					</section>
 				</div>
-				<div class="sub_section"> 
-					<h3> Una mascota Clabki </h3>
-					<div class="text_description"> 
-						<p>
-							Una mascota Clabki es una mascota que tiene un dispositivo inteligente en su collar que emite una señal con la cual puede ser reconocida por los miembros de la comunidad que se encuentren cerca de ella.
-						</p>
-					</div>
-					<div class="img_description">
-					</div>
+				<div class="section_separator"> </div>
+				<div  id="mascota_sub_section" class="sub_section"> 
+					<section id="mascota_sub_section_container" class="sub_section_container"> 
+						<div class="img_description">
+						</div>						
+						<div class="text_description"> 
+							<div class="text_container"> 
+								<p class="title"> UNA 
+									<br>
+									MASCOTA 
+									<br>
+									<span>CLABKI</span>
+								</p>
+								<hr class="separator">
+								<p class= "text_content">
+									Es una mascota que tiene un dispositivo inteligente en su collar que emite una señal con la cual puede ser reconocida por los miembros de la comunidad que se encuentren cerca de ella.
+								</p>
+							</div>
+						</div>						
+					</section>
 				</div>
-				<div class="sub_section"> 
-					<h3> ¿Qué pasa en caso de pérdida? </h3>
-					<div class="text_description"> 
-						<p>
-							En caso de que una mascota Clabki se pierda, su dueño puede reportarla a través de la misma aplicación para que el radar formado por nuestra comunidad pueda detectarla.
-							<br>
-							<br>
-							A partir de ese momento, cualquier miembro de Clabki que pase cerca de la mascota le reportará automáticamente a su dueño la ubicación en la cual se generó el encuentro. Diferentes encuentros le informarán al dueño los lugares por los cuales se está moviendo su mascota.
-						</p>
-					</div>
-					<div class="img_description">
-					</div>
+				<div class="section_separator"> </div>
+				<div  id="perdida_sub_section" class="sub_section"> 
+					<section id="perdida_sub_section_container" class="sub_section_container"> 
+						<div class="text_image_group"> 
+								<div class="text_description">
+									<div class="text_container"> 
+										<p class="title"> ¿QUÉ PASA
+											<br>
+											 EN CASO
+											<br>
+											<span> DE PÉRDIDA?</span>
+										</p>
+										<hr class="separator">
+										<p class= "text_content">
+											En caso de que una mascota <span> Clabki </span> se pierda, su dueño puede reportarla a través de la misma aplicación para que el radar formado por nuestra comunidad pueda detectarla. 
+											<br>
+										</p>
+									</div>
+								</div>
+								<div class="img_description">
+								</div>
+						</div>
+						<div class="text_image_group"> 
+								<div class="img_description">
+								</div>
+								<div class="text_description">
+									<div class="text_container"> 
+										<hr class="separator">
+										<p class= "text_content"> 
+											A partir de ese momento, cualquier miembro de <span> Clabki </span> que pase cerca de la mascota le reportará automáticamente a su dueño la ubicación en la cual se generó el encuentro. Diferentes encuentros le informarán al dueño los lugares por los cuales se está moviendo su mascota.
+										</p>
+									</div>
+								</div>
+						</div>												
+					</section>
 				</div>
-				<div class="sub_section"> 
-					<h3> El reencuentro </h3>
-					<div class="text_description"> 
-						<p>
-							Una vez la mascota esté con su familia de nuevo te avisaremos que has sido parte fundamental de un final feliz. Al final del día todos habremos ganado.
-						</p>
-					</div>
-					<div class="img_description">
-					</div>
-				</div>				
-				<div class="sub_section"> 
-					<h3> !Haz Parte! </h3>
-					<div class="text_description"> 
-						<p>
-							Anímate a ser parte del radar más grande de mascotas perdidas. Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, montas bici, vas al trabajo, o realizas cualquier actividad de tu vida cotidiana. Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.
-						</p>
-					</div>
-					<div class="img_description">
-					</div>
-				</div>
-				<div id="cta_button_container">
-					<img src="./Public/img/btn_dequesetrata.png" alt="¿Haz parte?">
+				<div class="section_separator"> </div>
+				<div  id="reencuentro_sub_section" class="sub_section"> 
+					<section id="reencuentro_sub_section_container" class="sub_section_container"> 
+						<div class="text_description"> 
+							<div class="text_container"> 
+								<p class="title"> ¡FINAL 
+									<br>
+									<span>FELIZ!</span>
+								</p>
+								<hr class="separator">
+								<p class= "text_content">
+									Una vez la mascota Clabki esté en su hogar de nuevo, te avisaremos que has sido parte fundamental del reencuentro de una familia.
+									<br>
+									<br>
+									<span>Al final del día ganamos todos</span>
+								</p>
+							</div>
+						</div>	
+						<div class="img_description">
+						</div>						
+					</section>
+				</div>	
+				<div class="section_separator"> </div>			
+				<div  id="unete_sub_section" class="sub_section"> 
+					<section id="unete_sub_section_container" class="sub_section_container"> 
+						<div class="text_image_group"> 
+								<div class="text_description">
+									<div class="text_container"> 
+										<p class="title">HAZ
+											<br>
+											<span>PARTE</span>
+										</p>
+										<hr class="separator">
+										<p class= "text_content">
+											Anímate a ser parte <span> del radar más grande de mascotas perdidas. </span> Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, montas bici, vas al trabajo, o realizas cualquier actividad de tu vida cotidiana. Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.
+											<br>
+										</p>
+									</div>
+								</div>
+						</div>
+						<div class="text_image_group"> 
+								<div class="text_description">
+									<div class="text_container"> 
+										<p class= "text_content"> 
+											<span style="font-size:22px">Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.</span>
+										</p>
+									</div>
+								</div>
+								<div class="img_description">
+								</div>
+						</div>							
+					</section>
 				</div>
 			</div>
 		</section>

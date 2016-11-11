@@ -24,6 +24,10 @@ header{
     margin-left: 0;
 }
 
+span{
+	font-weight: bold;
+}
+
 header li{
 	display: inline-block;
 	list-style-type: none;
@@ -45,14 +49,11 @@ header nav ul{
 
 #section_DeQueSeTrata h3{
 	font-size: 35px;
-	margin-left: 15%;
 }
 
 .container{
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
 }
 
 
@@ -114,49 +115,163 @@ header nav ul{
 	text-decoration: none;
 }
 .section-header{
+	align-items: center;
+	-webkit-align-items: center; /* Safari 7.0+ */		
+	background-color: #FFFEE8;
+  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */	
+	justify-content: center;
+	-webkit-justify-content: center; /* Safari 7.0+ */	
+	padding-bottom: 2%;
 	text-align: center;
-	padding-bottom: 75px;
 }
 
 .section-header h2{
-	display: inline-block;
 	font-size: 45px;
-	margin-top: 5%;
-	margin-bottom: 0;
-	line-height: 40px;
-	padding-bottom: 10px;
-	position: relative;
-	text-transform: uppercase;
+	margin-top: 2%;
+}
+
+.section_separator{
+	border:orange solid;
+	height: 40px;
+	width: 100%
 }
 
 .sub_section{
-	margin-bottom: 5%;
+	justify-content: center;
+	-webkit-justify-content: center; /* Safari 7.0+ */	
+  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
-.sub_section div{
-	vertical-align: middle;
-	display: inline-block;
+.sub_section_container{
+	justify-content: center;
+	-webkit-justify-content: center; /* Safari 7.0+ */	
+  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;			/* NEW, Spec - Opera 12.1, Firefox 20+ */
+  	margin-bottom: 5%;             
+	margin-top: 5%;
+	max-width: 1150px;
+	width: 100%;
+}
+
+#comunidad_sub_section{
+/*	border: #4B69FB solid;*/
+	background-color: #FFFEE8;	
+}
+
+#comunidad_sub_section_container{
+/*	border: black solid;*/
+	background-color: #FFFEE8;
+}
+
+#mascota_sub_section{
+/*	border: #4B69FB solid;*/
+	background-color: #DDF0F2;	
+}
+
+#mascota_sub_section_container{
+/*	border: black solid;*/
+	background-color: #DDF0F2;
+}
+
+#perdida_sub_section{
+/*	border: #4B69FB solid;*/
+	background-color: #F8F0ED;	
+}
+
+#perdida_sub_section_container{
+/*	border: black solid;*/
+	background-color: #F8F0ED;
+}
+
+#reencuentro_sub_section{
+/*	border: #4B69FB solid;*/
+	background-color: #FFFFFF;	
+}
+
+#reencuentro_sub_section_container{
+/*	border: black solid;*/
+	background-color: #FFFFFF;
+}
+
+#unete_sub_section{
+/*	border: #4B69FB solid;*/
+	background-color: #FFFEE8;	
+}
+
+#unete_sub_section_container{
+/*	border: black solid;*/
+	background-color: #FFFEE8;
+}
+
+.text_image_group{
 	width: 30%;
 }
+
+div.text_image_group div.text_description {
+	width: 100%;
+}
+
+div.text_image_group div.img_description {
+	width: 100%;
+}
+
+
 
 .text_description{
 	border: red;
 	border-style: solid;
-	margin-left: 15%;
+  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    justify-content: center;
+    -webkit-justify-content: center; /* Safari 7.0+ */	
+	text-align: center;
+	position: relative;
+	width: 30%;
 }
 
-.text_description p{
-	display: table-cell;
-	font-size: 20px;
+/*.text_container{
+	width: 100%;
+}*/
+
+.title{
+	font-size: 35px;
+}
+
+.text_description .text_content{
+	font-size: 16px;
 	padding: 2%;
-	text-align: justify;
+}
+
+.separator{
+	border-style: solid;
+	border-width: 1px;
+	color: black;
+	margin-left: 25%;
+	margin-top: 0.4em;
+	width: 50%;
 }
 
 .img_description{
 	border: black;
 	border-style: solid;
 	height: 250px;
-	margin-left: 5%;
+	width: 30%;
 }
 
 #cta_button_container{
@@ -218,8 +333,14 @@ footer .container{
 		padding-bottom: 20px;
 	}
 
+
 	.sub_section{
 		text-align: center;
+	}
+
+	.sub_section_container{
+
+		display: block;
 	}
 
 	#section_DeQueSeTrata h3{
@@ -234,7 +355,10 @@ footer .container{
 		width: 80%;
 	}
 
-	.text_description p{
+	.title{
+		font-size: 20px;
+	}
+	.text_description .text_content{
 		font-size: 16px;
 	}
 
