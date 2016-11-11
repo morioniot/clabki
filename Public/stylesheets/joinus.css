@@ -70,6 +70,20 @@ header {
     padding: 7px;
 }
 
+#facebook-page {
+    /*background-color: #ccc;*/
+    padding: 30px;
+}
+
+#facebook-page-container {
+    /*background-color: #666;*/
+    border-radius: 5px;
+    height: 130px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 265px;
+}
+
 .form_left_column, .form_right_column {
     -webkit-flex-direction: column;
     flex-direction: column;
