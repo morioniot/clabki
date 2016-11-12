@@ -58,13 +58,17 @@
 							</div>
 						</div>
 						<div class="img_description">
+							<img src="./Public/img/comunidad_icono.png">
 						</div>						
 					</section>
 				</div>
-				<div class="section_separator"> </div>
+				<div id="pincel1_separator" class="section_separator"> 
+					<img src="./Public/img/pincel1.png">
+				</div>
 				<div  id="mascota_sub_section" class="sub_section"> 
 					<section id="mascota_sub_section_container" class="sub_section_container"> 
 						<div class="img_description">
+							<img src="./Public/img/mascota_icono.png">
 						</div>						
 						<div class="text_description"> 
 							<div class="text_container"> 
@@ -82,7 +86,9 @@
 						</div>						
 					</section>
 				</div>
-				<div class="section_separator"> </div>
+				<div id="pincel2_separator" class="section_separator">
+					<img src="./Public/img/pincel2.png">
+				</div>
 				<div  id="perdida_sub_section" class="sub_section"> 
 					<section id="perdida_sub_section_container" class="sub_section_container"> 
 						<div class="text_image_group"> 
@@ -102,10 +108,12 @@
 									</div>
 								</div>
 								<div class="img_description">
+									<img id="celular_img" src="./Public/img/celular.png">
 								</div>
 						</div>
 						<div class="text_image_group"> 
 								<div class="img_description">
+									<img id="mapa_img" src="./Public/img/mapa.png">
 								</div>
 								<div class="text_description">
 									<div class="text_container"> 
@@ -118,7 +126,9 @@
 						</div>												
 					</section>
 				</div>
-				<div class="section_separator"> </div>
+				<div id="pincel3_separator" class="section_separator">
+					<img src="./Public/img/pincel3.png">
+				</div>
 				<div  id="reencuentro_sub_section" class="sub_section"> 
 					<section id="reencuentro_sub_section_container" class="sub_section_container"> 
 						<div class="text_description"> 
@@ -137,10 +147,13 @@
 							</div>
 						</div>	
 						<div class="img_description">
+
 						</div>						
 					</section>
 				</div>	
-				<div class="section_separator"> </div>			
+				<div id="pincel4_separator" class="section_separator">
+					<img src="./Public/img/pincel4.png">
+				</div>		
 				<div  id="unete_sub_section" class="sub_section"> 
 					<section id="unete_sub_section_container" class="sub_section_container"> 
 						<div class="text_image_group"> 
@@ -152,7 +165,7 @@
 										</p>
 										<hr class="separator">
 										<p class= "text_content">
-											Anímate a ser parte <span> del radar más grande de mascotas perdidas. </span> Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, montas bici, vas al trabajo, o realizas cualquier actividad de tu vida cotidiana. Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.
+											Anímate a ser parte <span> del radar más grande de mascotas perdidas. </span> Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, montas bici, vas al trabajo, o realizas cualquier actividad de tu vida cotidiana.
 											<br>
 										</p>
 									</div>
@@ -167,6 +180,7 @@
 									</div>
 								</div>
 								<div class="img_description">
+									<img id="quiero_img" src="./Public/img/quiero_btn.png">
 								</div>
 						</div>							
 					</section>

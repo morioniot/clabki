@@ -56,15 +56,6 @@ header nav ul{
 	margin-left: auto;
 }
 
-
-
-#deQueSeTrataButton{
-	cursor:pointer;
-	left:1%;
-	top:80%;
-	position: absolute;
-}
-
 .logo{
 	align-items: center;
 	-webkit-align-items: center; /* Safari 7.0+ */	
@@ -87,15 +78,6 @@ header nav ul{
 	width: 100%;
 }
 
-/*.logo p{
-	font-family: "Lucida Console";
-	font-weight: bold;
-	float:left;
-	height: auto; 
-	margin-left: 3%;
-	width: 70%; 
-}
-*/
 .social_networks{
 	display: inline-block;
 	margin-left: 55%;
@@ -135,12 +117,13 @@ header nav ul{
 }
 
 .section_separator{
-	border:orange solid;
+/*	border:orange solid;*/
 	height: 40px;
 	width: 100%
 }
 
 .sub_section{
+/*	border: red solid;*/
 	justify-content: center;
 	-webkit-justify-content: center; /* Safari 7.0+ */	
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -148,70 +131,40 @@ header nav ul{
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
   	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+  	padding-top: 4%;
 }
 
 .sub_section_container{
+/*	border: black solid;*/
 	justify-content: center;
 	-webkit-justify-content: center; /* Safari 7.0+ */	
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
-  	display: flex;			/* NEW, Spec - Opera 12.1, Firefox 20+ */
-  	margin-bottom: 5%;             
-	margin-top: 5%;
+  	display: flex;			/* NEW, Spec - Opera 12.1, Firefox 20+ */            
 	max-width: 1150px;
 	width: 100%;
 }
 
-#comunidad_sub_section{
-/*	border: #4B69FB solid;*/
-	background-color: #FFFEE8;	
+#comunidad_sub_section, #comunidad_sub_section_container, #pincel1_separator {
+	background-color: #FFFEEB;	
 }
 
-#comunidad_sub_section_container{
-/*	border: black solid;*/
-	background-color: #FFFEE8;
+#mascota_sub_section, #mascota_sub_section_container, #pincel2_separator{
+	background-color: #E1F2F3;	
 }
 
-#mascota_sub_section{
-/*	border: #4B69FB solid;*/
-	background-color: #DDF0F2;	
+#perdida_sub_section, #perdida_sub_section_container, #pincel3_separator{
+	background-color: #FAF3EF;	
 }
 
-#mascota_sub_section_container{
-/*	border: black solid;*/
-	background-color: #DDF0F2;
-}
-
-#perdida_sub_section{
-/*	border: #4B69FB solid;*/
-	background-color: #F8F0ED;	
-}
-
-#perdida_sub_section_container{
-/*	border: black solid;*/
-	background-color: #F8F0ED;
-}
-
-#reencuentro_sub_section{
-/*	border: #4B69FB solid;*/
+#reencuentro_sub_section, #reencuentro_sub_section_container, #pincel4_separator {
 	background-color: #FFFFFF;	
 }
 
-#reencuentro_sub_section_container{
-/*	border: black solid;*/
-	background-color: #FFFFFF;
-}
-
-#unete_sub_section{
-/*	border: #4B69FB solid;*/
+#unete_sub_section, #unete_sub_section_container{
 	background-color: #FFFEE8;	
-}
-
-#unete_sub_section_container{
-/*	border: black solid;*/
-	background-color: #FFFEE8;
 }
 
 .text_image_group{
@@ -226,9 +179,19 @@ div.text_image_group div.img_description {
 	width: 100%;
 }
 
+#celular_img {
 
+	width: 50%;
+}
+
+#mapa_img{
+	width: 90%;
+	height: 90%;
+}
 
 .text_description{
+	align-items:center;
+	-webkit-align-items:center;
 /*	border: red;
 	border-style: solid;*/
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -239,15 +202,11 @@ div.text_image_group div.img_description {
     flex-direction: column;
     -webkit-flex-direction: column;
     justify-content: center;
+    text-align: center;
     -webkit-justify-content: center; /* Safari 7.0+ */	
-	text-align: center;
-	position: relative;
 	width: 30%;
 }
 
-/*.text_container{
-	width: 100%;
-}*/
 
 .title{
 	font-size: 35px;
@@ -268,10 +227,24 @@ div.text_image_group div.img_description {
 }
 
 .img_description{
+  	align-items:center;
+  	-webkit-align-items:center;
 /*	border: black;
 	border-style: solid;*/
-	height: 250px;
+  	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
+  	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+/*    -webkit-flex-direction: column;*/
+	height: auto;
+    justify-content: center;
+    -webkit-justify-content: center; /* Safari 7.0+ */	
 	width: 30%;
+}
+
+.img_description img{
+	width: 100%;
 }
 
 #cta_button_container{
@@ -282,9 +255,7 @@ div.text_image_group div.img_description {
 footer{
 	background-color: #F1cd4e;
 	height: 100px;
-	margin-top: 2%;
 	line-height: 20px;
-	width: 100%;
 }
 
 footer .container{
@@ -310,7 +281,7 @@ footer .container{
 @media (max-width: 980px) {
 
 	header .logo {
-		width: 30%;
+		width: 20%;
 	}
 	header .logo p{
 		font-size: 16px;
@@ -319,10 +290,6 @@ footer .container{
 	.header nav{
 		display: none;
 	}
-
-/*	#main_image{
-		height: 300px;
-	}*/
 
 	.section-header{
 		padding-bottom: 5px
@@ -333,13 +300,12 @@ footer .container{
 		padding-bottom: 20px;
 	}
 
-
 	.sub_section{
+		padding-top: 15%;
 		text-align: center;
 	}
 
 	.sub_section_container{
-
 		display: block;
 	}
 
@@ -348,16 +314,25 @@ footer .container{
 		margin-left: 0;
 	}
 
-	.sub_section div{
-		display: block;
+	.img_description, .text_description, .text_image_group{
 		margin-left: 10%;
 		margin-bottom: 5%;
 		width: 80%;
 	}
 
+	.text_image_group{
+/*		border: blue solid;*/
+		width: 80%;
+	}
+
+	div.text_image_group div {
+		margin-left: 0;
+	}
+
 	.title{
 		font-size: 20px;
 	}
+
 	.text_description .text_content{
 		font-size: 16px;
 	}
