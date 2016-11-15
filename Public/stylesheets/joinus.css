@@ -73,6 +73,7 @@ header {
 #facebook-page {
     /*background-color: #ccc;*/
     padding: 30px;
+    width: 340px;
 }
 
 #facebook-page-container {
@@ -84,6 +85,37 @@ header {
     width: 265px;
 }
 
+#followers_container {
+    /*background-color: red;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+#followers_count {
+    /*background-color: violet;*/
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
+    -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
+    -ms-flex: 1;           /* IE 10 */
+    flex: 1;
+}
+
+#followers_paragraph {
+    /*background-color: pink;*/
+    font-size: 28px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#followers_paragraph span {
+    font-weight: bolder;
+}
 .form_left_column, .form_right_column {
     -webkit-flex-direction: column;
     flex-direction: column;
