@@ -1,3 +1,9 @@
+@font-face {
+    font-family: mensch;
+    src: url(../fonts/mensch.ttf);
+}
+
+
 * {
     border: 0;
     margin: 0;
@@ -7,10 +13,12 @@
 body {
 	background: #fff;
 	margin: 0;
-	overflow-x: hidden;
 	width: auto;
 }
 
+#wrapper{
+	overflow-x: hidden;
+}
 header{
 
 	background-color: #F1cd4e;
@@ -44,11 +52,6 @@ header nav ul{
 	height: auto;
 	position: relative;
 	width: 100%
-}
-
-
-#section_DeQueSeTrata h3{
-	font-size: 35px;
 }
 
 .container{
@@ -168,7 +171,7 @@ header nav ul{
 }
 
 .text_image_group{
-	width: 30%;
+	width: 50%;
 }
 
 div.text_image_group div.text_description {
@@ -180,7 +183,6 @@ div.text_image_group div.img_description {
 }
 
 #celular_img {
-
 	width: 50%;
 }
 
@@ -204,26 +206,48 @@ div.text_image_group div.img_description {
     justify-content: center;
     text-align: center;
     -webkit-justify-content: center; /* Safari 7.0+ */	
-	width: 30%;
+	width: 60%;
 }
 
 
 .title{
-	font-size: 35px;
+/*	border: solid;*/
+	font-family: mensch;
+	font-size: 78.9pt;
 }
 
-.text_description .text_content{
-	font-size: 16px;
-	padding: 2%;
+.small{
+	font-size: 58.9pt;
+}
+
+.text_description .text_content .simple_paragraph{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18pt;
+	line-height: 23.5pt;
+}
+
+.text_description .text_content .important_text{
+	font-family: 'Concert One', cursive;
+	font-size:33.32pt;
+	margin-bottom: 17px;
+	margin-top: 17px;
+	line-height: 33.9pt;
+
 }
 
 .separator{
 	border-style: solid;
-	border-width: 1px;
+	border-width: 3px;
 	color: black;
 	margin-left: 25%;
-	margin-top: 0.4em;
+
+	margin-bottom: 17px;
 	width: 50%;
+}
+
+#special_separator{
+
+		margin-top: 17px;
 }
 
 .img_description{
@@ -240,16 +264,7 @@ div.text_image_group div.img_description {
 	height: auto;
     justify-content: center;
     -webkit-justify-content: center; /* Safari 7.0+ */	
-	width: 30%;
-}
-
-.img_description img{
-	width: 100%;
-}
-
-#cta_button_container{
-	text-align: center;
-	width: 100%;
+	width: 50%;
 }
 
 footer{
@@ -309,9 +324,12 @@ footer .container{
 		display: block;
 	}
 
-	#section_DeQueSeTrata h3{
-		font-size: 24px;
-		margin-left: 0;
+	.title{
+		font-size: 50.9pt;
+	}
+
+	.small{
+		font-size: 43.9px;
 	}
 
 	.img_description, .text_description, .text_image_group{
@@ -320,6 +338,9 @@ footer .container{
 		width: 80%;
 	}
 
+	.img_description img{
+		width: 100%;
+	}
 	.text_image_group{
 /*		border: blue solid;*/
 		width: 80%;
@@ -329,13 +350,6 @@ footer .container{
 		margin-left: 0;
 	}
 
-	.title{
-		font-size: 20px;
-	}
-
-	.text_description .text_content{
-		font-size: 16px;
-	}
 
 	footer{
 		height: 200px;
