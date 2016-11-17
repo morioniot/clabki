@@ -1,3 +1,17 @@
+<?php
+    function getPageFollowers() {
+
+        $fanPageId = '795628257177459';
+        $accessToken = 'access_token=207271499718170|7ede4633f6e471307ce8a678a74922c0';
+        $fields = 'fields=fan_count';
+        $address = 'https://graph.facebook.com/';
+        $url = $address.$fanPageId.'?'.$accessToken.'&'.$fields;
+        $response = file_get_contents( $url );
+        $page = json_decode( $response );
+        return $page->fan_count;
+    }
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,14 +22,52 @@
         <title>Clabky | ¡Haz parte!</title>
     </head>
     <body>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.8";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        <script>
+          window.fbAsyncInit = function() {
+
+              let newLike = false;
+
+              const likeButtonCallback = function() {
+                  const countElement = document.getElementById('count_number');
+                  let count = countElement.innerHTML;
+                  count = parseInt( count );
+                  count++;
+                  countElement.innerHTML = count;
+                  newLike = true;
+                  countElement.classList.add('green_text');
+              };
+
+              const unlikeButtonCallback = function() {
+                  const countElement = document.getElementById('count_number');
+                  let count = countElement.innerHTML;
+                  count = parseInt( count );
+                  count--;
+                  countElement.innerHTML = count;
+                  if( newLike ) {
+                      countElement.classList.remove('green_text');
+                  }
+              };
+
+              FB.init({
+                appId      : '207271499718170',
+                xfbml      : true,
+                version    : 'v2.8'
+              });
+
+              FB.Event.subscribe('xfbml.render', function(){
+                  FB.Event.subscribe('edge.create', likeButtonCallback);
+                  FB.Event.subscribe('edge.remove', unlikeButtonCallback);
+              });
+          };
+
+          (function(d, s, id){
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) {return;}
+             js = d.createElement(s); js.id = id;
+             js.src = "//connect.facebook.net/es_LA/sdk.js";
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));
+        </script>
         <header>
         </header>
         <section id="main_container">
@@ -62,24 +114,27 @@
                     <div id="facebook-page-container">
                         <div
                         class="fb-page"
-                        data-href="https://www.facebook.com/clabki/"
+                        data-href="https://www.facebook.com/geekedtshirts/"
                         data-tabs="false"
                         data-small-header="false"
                         data-adapt-container-width="true"
                         data-hide-cover="false"
                         data-show-facepile="false">
                             <blockquote
-                                cite="https://www.facebook.com/clabki/"
+                                cite="https://www.facebook.com/geekedtshirts/"
                                 class="fb-xfbml-parse-ignore">
-                                <a href="https://www.facebook.com/clabki/">Clabki</a>
+                                <a href="https://www.facebook.com/geekedtshirts/">Geeked</a>
                             </blockquote>
                         </div>
                     </div>
                 </section>
                 <section id="followers_count">
                     <p id="followers_paragraph">
-                        Contigo, ya somos <span>10566</span> personas
-                        mostrando interés por esta iniciativa 
+                        Contigo, ya somos
+                        <span id="count_number">
+                            <?php echo(getPageFollowers()); ?>
+                        </span> personas
+                        mostrando interés por esta iniciativa
                     </p>
                 </section>
             </section>
