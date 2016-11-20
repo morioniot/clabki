@@ -69,6 +69,25 @@
            }(document, 'script', 'facebook-jssdk'));
         </script>
         <header>
+            <div id="logo_container">
+                <a href="#">
+                    <img src="./Public/img/joinus/logo.png" alt="Clabki"/>
+                </a>
+            </div>
+            <nav id="contact_navigation">
+                <ul>
+                    <li>
+                        <a id="social_link" href="#">
+                            <!-- <img src="./Public/img/joinus/siguenos.png" alt="Redes"/> -->
+                        </a>
+                    </li>
+                    <li>
+                        <a id="contact_us_link" href="#">
+                            <!-- <img src="./Public/img/joinus/conocenos.png" alt="Conócenos"/> -->
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         <section id="main_container">
             <h1 id="info_title">¡Haz parte!</h1>

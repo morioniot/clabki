@@ -6,7 +6,66 @@
 
 header {
 	background-color: #f1cd4e;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 	height: 72px;
+    justify-content: space-between;
+}
+
+#logo_container {
+    /*background-color: #666;*/
+    padding: 5px 20px;
+}
+
+#logo_container img {
+    height: auto;
+    width: 130px;
+}
+
+#contact_navigation {
+    /*background-color: #ccc;*/
+    margin-right: 50px;
+    position: relative;
+    width: 380px;
+}
+
+#contact_navigation ul {
+    bottom: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 20px;
+    position: absolute;
+    width: 100%;
+}
+
+#social_link, #contact_us_link {
+    display: block;
+}
+
+#social_link {
+    background: url('../img/joinus/siguenos.png');
+    height: 43px;
+    width: 199px;
+}
+
+#social_link:hover {
+    background: url('../img/joinus/siguenos_face.png');
+}
+
+#contact_us_link {
+    background: url('../img/joinus/conocenos.png');
+    height: 43px;
+    width: 144px;
+}
+
+#contact_us_link:hover {
+    background: url('../img/joinus/conocenos_activo.png');
 }
 
 #main_container {
