@@ -15,14 +15,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css?family=Coiny|Slabo+27px" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
         <link rel="stylesheet" href="./Public/stylesheets/joinus.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
         <meta charset="utf-8">
         <title>Clabky | ¡Haz parte!</title>
     </head>
     <body>
-        <script>
+        <!-- <script>
           window.fbAsyncInit = function() {
 
               let newLike = false;
@@ -67,7 +67,7 @@
              js.src = "//connect.facebook.net/es_LA/sdk.js";
              fjs.parentNode.insertBefore(js, fjs);
            }(document, 'script', 'facebook-jssdk'));
-        </script>
+        </script> -->
         <header>
             <div id="logo_container">
                 <a href="#">
@@ -90,44 +90,45 @@
             </nav>
         </header>
         <section id="main_container">
-            <h1 id="info_title">¡Haz parte!</h1>
-            <p id="info_paragraph">
-                Te en lo acudieron ah recababan discipula talentazo distraido.
-                Sacamuelas imposibles un pretension molestarle es.
-                Gr lo desencanto apasionado comprender no en comprendia.
-                Alguien hacerle ya ceguera le decidio guardia mi un. Hay flexible
-                sea hermanos llamaban sufrirla. Memorias cerraban ido garantia vez
-                gritaban era merlatti invasora. Las actualidad amabilidad indecibles
-                preteritos hoy sin magnificas. Apoplejia ola retroceso homenajes por
-                tal pretendia.
-            </p>
-            <form id="join_us_form" action="/app/joinus.php" method="post">
-                <div id="form_fields_container">
-                    <div class="form_left_column">
-                        <div class="small_field">
-                            <label for="name">Nombre:</label>
-                            <input type="text" name="name" id="name" required>
-                        </div>
-                        <div class="small_field">
-                            <label for="email">Email:</label>
-                            <input type="text" name="email" id="email" required>
-                        </div>
-                    </div>
-                    <div class="form_right_column">
-                        <div class="large_field">
-                            <label for="opinion">Lo que pienso:</label>
-                            <textarea name="opinion" id="opinion" required></textarea>
-                        </div>
-                        <div class="check_box_container">
-                            <input type="checkbox" name="interested" value="1">
-                            <p>Quiero saber más sobre el collar</p>
-                        </div>
-                    </div>
+            <section id="info_and_form_container">
+                <div id="info_paragraph">
+                    <div id="info_title"></div>
+                    <hr>
+                    <p id="info_text">
+                        ¡Gracias por tu interés! Te contamos que en este momento
+                        estamos trabajando en llevar esta idea al siguiente nivel.
+                        Si quieres mantenerte informado sobre nuestros avances,
+                        <span>síguenos en nuestras redes sociales.</span> Puedes
+                        decirnos lo que piensas usando este formulario. En caso
+                        de que estés interesado en el dispositivo para el collar,
+                        cuéntanos y te enviaremos la información a tu correo.
+                    </p>
+                    <hr>
                 </div>
-                <div id="button_container">
-                    <input type="submit" value="¡Quiero ser parte!">
+                <div id="form_container">
+                    <form id="join_us_form" action="/app/joinus.php" method="post">
+                        <div id="form_fields_container">
+                            <div class="small_field">
+                                <label for="name">NOMBRE</label>
+                                <input type="text" name="name" id="name" required>
+                            </div>
+                            <div class="small_field">
+                                <label for="email">CORREO</label>
+                                <input type="text" name="email" id="email" required>
+                            </div>
+                            <div class="large_field">
+                                <label for="opinion">COMENTARIOS</label>
+                                <textarea name="opinion" id="opinion" required></textarea>
+                            </div>
+                            <div class="check_box_container">
+                                <label>QUIERO SABER ACERCA DEL COLLAR</label>
+                                <input type="checkbox" name="interested" value="1">
+                            </div>
+                            <input type="submit" value="">
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </section>
             <section id="followers_container">
                 <section id="facebook-page">
                     <div id="facebook-page-container">
