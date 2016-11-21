@@ -34,15 +34,15 @@
 		<section id="main_image">
 				<img src="./Public/img/main_image.jpg" alt="">
 		</section>
-		<section class="section" id="section_DeQueSeTrata"> 
+		<section class="section" id="section_DeQueSeTrata">
 				<div id="pincel1_separator" class="section_separator"> 
 					<img src="./Public/img/pincel1.png">
-				</div>
+				</div> 
 				<div class="section-header">
 					<img src="./Public/img/dequesetrata_titulo.png" alt="">
 				</div>
-				<div  id="comunidad_sub_section" class="sub_section"> 
-					<section id="comunidad_sub_section_container" class="sub_section_container"> 
+				<div  id="comunidad_sub_section" class="sub_section">  					
+					<section id="comunidad_sub_section_container" class="sub_section_container">
 						<div class="text_description"> 
 							<div class="text_container"> 
 								<img src="./Public/img/comunidad.png" alt="">
@@ -50,7 +50,6 @@
 								<div class= "text_content">
 									<p class="simple_paragraph"> En <span> Clabki </span> creemos que podemos hacer mucho más por las mascotas perdidas. Por eso buscamos crear la comunidad más grande de personas con una idea en común: </p>
 									<p class="important_text"> “No queremos más mascotas lejos de su hogar“ </p>
-									<hr id="special_separator" class="separator"> 
 									<p class="simple_paragraph"> Gracias a una aplicación móvil, cada miembro de la comunidad se convertirá en un radar que vigilará la ciudad en busca de mascotas Clabki que hayan sido reportadas como perdidas. </p>
 								</div>
 							</div>
@@ -158,7 +157,9 @@
 									</p>
 								</div>
 								<div class="img_description">
-									<img id="quiero_img" src="./Public/img/quiero_btn.png">
+									<a href="joinus.php">
+										<img id="quiero_img" src="./Public/img/quiero_btn.png">
+									</a>
 								</div>
 						</div>							
 					</section>
