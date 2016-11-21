@@ -89,6 +89,9 @@
                 </ul>
             </nav>
         </header>
+        <div id="shadow_container">
+            <img src="./Public/img/joinus/shadow.png" alt="shadow" />
+        </div>
         <section id="main_container">
             <section id="info_and_form_container">
                 <div id="info_paragraph">
