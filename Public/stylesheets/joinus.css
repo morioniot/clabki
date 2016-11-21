@@ -95,6 +95,7 @@ header {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    margin-top: -30px;
     padding: 0px 10px 50px 10px;
 }
 
@@ -176,6 +177,10 @@ header {
     width: 150px;
 }
 
+#form_fields_container input[type='submit']:hover {
+    background: url('../img/joinus/enviar_btn_activo.png');
+}
+
 #form_fields_container label {
     color: #1a223c;
     font-family: mensch;
@@ -253,6 +258,7 @@ header {
 
 .small_field input, .large_field textarea {
     border-radius: 5px;
+    box-shadow: inset 4px 3px 0px 0px #e6e6d4;
     width: 280px;
 }
 
@@ -262,6 +268,12 @@ header {
 
 .large_field textarea {
     height: 120px;
+}
+
+.check_box_container input[type='checkbox'] {
+    margin-top: -6px;
+    height: 15px;
+    width: 15px;
 }
 
 .green_text {
