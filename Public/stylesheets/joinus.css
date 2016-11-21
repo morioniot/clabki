@@ -1,3 +1,8 @@
+@font-face {
+   font-family: mensch;
+   src: url(../fonts/mensch.ttf);
+}
+
 * {
     border: 0;
     margin: 0;
@@ -139,7 +144,6 @@ header {
     display: flex;
     flex-direction: column;
     -webkit-flex-direction: column; /* Safari 6.1+ */
-    font-size: 16px;
     height: 490px;
     justify-content: center;
     margin: 0 auto;
@@ -169,7 +173,7 @@ header {
 
 #form_fields_container label {
     color: #1a223c;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: mensch;
     font-size: 18px;
     font-weight: 700;
     margin-right: 8px;
@@ -230,7 +234,7 @@ header {
     display: flex;
     justify-content: flex-end;
     -webkit-justify-content: flex-end; /* Safari 6.1+ */
-    padding: 7px 20px;
+    padding: 9px 20px;
     width: 90%;
 }
 
@@ -238,9 +242,13 @@ header {
     align-items: flex-start;
 }
 
+.large_field label {
+    padding-top: 6px;
+}
+
 .small_field input, .large_field textarea {
     border-radius: 5px;
-    width: 250px;
+    width: 280px;
 }
 
 .small_field input {
