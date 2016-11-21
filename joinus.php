@@ -19,7 +19,7 @@
         <link rel="stylesheet" href="./Public/stylesheets/joinus.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
         <meta charset="utf-8">
-        <title>Clabky | ¡Haz parte!</title>
+        <title>Clabki | ¡Haz parte!</title>
     </head>
     <body>
         <!-- <script>
