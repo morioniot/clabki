@@ -103,13 +103,13 @@ p span {
 }
 
 #contact_us_link {
-    background: url('../img/joinus/conocenos.png');
+    background: url('../img/common/conocenos.png');
     height: 43px;
     width: 144px;
 }
 
 #contact_us_link:hover {
-    background: url('../img/joinus/conocenos_activo.png');
+    background: url('../img/common/conocenos_activo.png');
 }
 
 #team_section {

@@ -13,7 +13,7 @@
 		<header>
             <div id="logo_container">
                 <a href="#">
-                    <img src="./Public/img/joinus/logo.png" alt="Clabki"/>
+                    <img src="./Public/img/common/logo.png" alt="Clabki"/>
                 </a>
             </div>
             <nav id="contact_navigation">
@@ -31,20 +31,20 @@
             </nav>
         </header>
 		<section id="main_image">
-				<img src="./Public/img/main_image.jpg" alt="">
+				<img src="./Public/img/main/main_image.jpg" alt="">
 		</section>
 		<section class="section" id="section_DeQueSeTrata">
 				<div id="pincel1_separator" class="section_separator">
-					<img src="./Public/img/pincel1.png">
+					<img src="./Public/img/main/pincel1.png">
 				</div>
 				<div class="section-header">
-					<img src="./Public/img/dequesetrata_titulo.png" alt="">
+					<img src="./Public/img/main/dequesetrata_titulo.png" alt="">
 				</div>
 				<div  id="comunidad_sub_section" class="sub_section">
 					<section id="comunidad_sub_section_container" class="sub_section_container">
 						<div class="text_description">
 							<div class="text_container">
-								<img src="./Public/img/comunidad.png" alt="">
+								<img src="./Public/img/main/comunidad.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> En <span> Clabki </span> creemos que podemos hacer mucho más por las mascotas perdidas. Por eso buscamos crear la comunidad más grande de personas con una idea en común: </p>
@@ -54,7 +54,7 @@
 							</div>
 						</div>
 						<div id="comunidad_img_container" class="img_description">
-							<img src="./Public/img/comunidad_icono_17nov.png">
+							<img src="./Public/img/main/comunidad_icono_17nov.png">
 						</div>
 					</section>
 				</div>
@@ -64,11 +64,11 @@
 				<div  id="mascota_sub_section" class="sub_section">
 					<section id="mascota_sub_section_container" class="sub_section_container">
 						<div id="mascota_img_container" class="img_description">
-							<img src="./Public/img/mascota_icono.png">
+							<img src="./Public/img/main/mascota_icono.png">
 						</div>
 						<div id="mascota_text_container" class="text_description">
 							<div class="text_container">
-								<img src="./Public/img/unamascota.png" alt="">
+								<img src="./Public/img/main/unamascota.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> Es una mascota que tiene un dispositivo inteligente en su collar que emite una señal con la cual puede ser reconocida por los miembros de la comunidad que se encuentren cerca de ella. </p>
@@ -78,14 +78,14 @@
 					</section>
 				</div>
 				<div id="pincel2_separator" class="section_separator">
-					<img src="./Public/img/pincel2.png">
+					<img src="./Public/img/main/pincel2.png">
 				</div>
 				<div  id="perdida_sub_section" class="sub_section">
 					<section id="perdida_sub_section_container" class="sub_section_container">
 						<div class="text_image_group">
 								<div class="text_description">
 									<div class="text_container">
-										<img src="./Public/img/quepasa.png" alt="">
+										<img src="./Public/img/main/quepasa.png" alt="">
 										<hr class="separator">
 										<div class= "text_content">
 											<p class="simple_paragraph"> En caso de que una mascota <span> Clabki </span> se pierda, su dueño puede reportarla a través de la misma aplicación para que el radar formado por nuestra comunidad pueda detectarla. </p>
@@ -93,12 +93,12 @@
 									</div>
 								</div>
 								<div class="img_description">
-									<img id="celular_img" src="./Public/img/celular.png">
+									<img id="celular_img" src="./Public/img/main/celular.png">
 								</div>
 						</div>
 						<div  class="text_image_group">
 								<div class="img_description">
-									<img id="mapa_img" src="./Public/img/mapa.png">
+									<img id="mapa_img" src="./Public/img/main/mapa.png">
 								</div>
 								<hr class="separator">
 								<div class="text_description">
@@ -112,13 +112,13 @@
 					</section>
 				</div>
 				<div id="pincel3_separator" class="section_separator">
-					<img src="./Public/img/pincel3.png">
+					<img src="./Public/img/main/pincel3.png">
 				</div>
 				<div  id="reencuentro_sub_section" class="sub_section">
 					<section id="reencuentro_sub_section_container" class="sub_section_container">
 						<div id="final_feliz_text_container" class="text_description">
 							<div class="text_container">
-								<img src="./Public/img/finalfeliz.png" alt="">
+								<img src="./Public/img/main/finalfeliz.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> Una vez la mascota Clabki esté en su hogar de nuevo, te avisaremos que has sido parte fundamental del reencuentro de una familia.</p>
@@ -132,14 +132,14 @@
 					</section>
 				</div>
 				<div id="pincel4_separator" class="section_separator">
-					<img src="./Public/img/pincel4.png">
+					<img src="./Public/img/main/pincel4.png">
 				</div>
 				<div  id="unete_sub_section" class="sub_section">
 					<section id="unete_sub_section_container" class="sub_section_container">
 						<div class="text_image_group">
 								<div class="text_description">
 									<div class="text_container">
-										<img src="./Public/img/hazparte.png" alt="">
+										<img src="./Public/img/main/hazparte.png" alt="">
 										<hr class="separator">
 										<div class= "text_content">
 											<p class="simple_paragraph"> Anímate a ser parte <span> del radar más grande de mascotas perdidas. </span> Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, montas bici, vas al trabajo, o realizas cualquier actividad de tu vida cotidiana. </p>
@@ -157,7 +157,7 @@
 								</div>
 								<div class="img_description">
 									<a href="joinus.php">
-										<img id="quiero_img" src="./Public/img/quiero_btn.png">
+										<img id="quiero_img" src="./Public/img/main/quiero_btn.png">
 									</a>
 								</div>
 						</div>

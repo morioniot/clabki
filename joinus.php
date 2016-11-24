@@ -71,7 +71,7 @@
         <header>
             <div id="logo_container">
                 <a href="#">
-                    <img src="./Public/img/joinus/logo.png" alt="Clabki"/>
+                    <img src="./Public/img/common/logo.png" alt="Clabki"/>
                 </a>
             </div>
             <nav id="contact_navigation">
@@ -89,7 +89,7 @@
             </nav>
         </header>
         <div id="shadow_container">
-            <img src="./Public/img/joinus/shadow.png" alt="shadow" />
+            <img src="./Public/img/common/shadow.png" alt="shadow" />
         </div>
         <section id="main_container">
             <section id="info_and_form_container">
