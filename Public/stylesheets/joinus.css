@@ -24,6 +24,11 @@ header {
     -webkit-justify-content: space-between; /* Safari 6.1+ */
 }
 
+#shadow_container img {
+    width: 100%;
+    height: auto;
+}
+
 #logo_container {
     /*background-color: #666;*/
     padding: 5px 20px;
@@ -91,11 +96,15 @@ header {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    padding: 50px 10px;
+    margin-top: -55px;
+}
+
+#info_paragraph, #form_container {
+    padding: 25px 5px;
 }
 
 #info_paragraph {
-    /*background-color: #aaa;*/
+    /*background-color: cadetblue;*/
     -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
     -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
     -ms-flex: 1;           /* IE 10 */
@@ -130,15 +139,19 @@ header {
 
 #form_container {
     /*background-color: green;*/
-    -webkit-flex-direction: column;
+    flex: 1;
     -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
     -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
     -ms-flex: 1;           /* IE 10 */
-    flex: 1;
+    flex-direction: column;
+    -webkit-flex-direction: column;
 }
 
 #join_us_form {
+    /*background-color: darkorange;*/
     background: url('../img/joinus/fondoformulario.png');
+    /*background-repeat: no-repeat;*/
+    background-size: 100% 490px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -161,7 +174,7 @@ header {
     flex-direction: column;
     -webkit-flex-direction: column; /* Safari 6.1+ */
     margin: auto;
-    width: 92%;
+    width: 90%;
 }
 
 #form_fields_container input[type='submit'] {
@@ -170,6 +183,10 @@ header {
     height: 59px;
     margin: 50px 20px 0px 230px;
     width: 150px;
+}
+
+#form_fields_container input[type='submit']:hover {
+    background: url('../img/joinus/enviar_btn_activo.png');
 }
 
 #form_fields_container label {
@@ -229,6 +246,7 @@ header {
 
 .small_field, .large_field, .check_box_container {
     align-items: center;
+    box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -236,7 +254,7 @@ header {
     justify-content: flex-end;
     -webkit-justify-content: flex-end; /* Safari 6.1+ */
     padding: 9px 20px;
-    width: 90%;
+    width: 100%;
 }
 
 .large_field {
@@ -248,8 +266,10 @@ header {
 }
 
 .small_field input, .large_field textarea {
+    box-sizing: border-box;
     border-radius: 5px;
-    width: 280px;
+    box-shadow: inset 4px 3px 0px 0px #e6e6d4;
+    width: 75%;
 }
 
 .small_field input {
@@ -260,19 +280,25 @@ header {
     height: 120px;
 }
 
+.check_box_container input[type='checkbox'] {
+    margin-top: -6px;
+    height: 15px;
+    width: 15px;
+}
+
 .green_text {
     color: green;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 950px) {
 
-    #form_fields_container {
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
+    #info_and_form_container {
+        flex-direction: column;
+        -webkit-flex-direction: column; /* Safari 6.1+ */
     }
 
-    #facebook-page {
-        width: 100%;
+    #info_text {
+        max-width: 480px;
     }
 
     #followers_container {
@@ -284,12 +310,21 @@ header {
         min-width: 400px;
     }
 
-    .form_left_column, .form_right_column {
-        min-width: 405px;
+    #facebook-page {
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 640px) {
+
+    #shadow_container {
+        min-height: 67px;
+    }
+
+    #join_us_form {
+        max-width: 450px;
+        width: 90%;
+    }
 
     #followers_count {
         min-width: 320px;
@@ -298,13 +333,10 @@ header {
     #followers_paragraph {
         width: 85%;
     }
+}
 
-    .form_left_column, .form_right_column {
-        min-width: 320px;
-    }
-
-    .small_field, .large_field, .check_box_container {
-        box-sizing: border-box;
-        width: 100%;
+@media screen and (max-width: 440px) {
+    #join_us_form label {
+        font-size: 16px;
     }
 }

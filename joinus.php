@@ -89,6 +89,9 @@
                 </ul>
             </nav>
         </header>
+        <div id="shadow_container">
+            <img src="./Public/img/joinus/shadow.png" alt="shadow" />
+        </div>
         <section id="main_container">
             <section id="info_and_form_container">
                 <div id="info_paragraph">
@@ -121,8 +124,8 @@
                                 <textarea name="opinion" id="opinion" required></textarea>
                             </div>
                             <div class="check_box_container">
-                                <label>QUIERO SABER ACERCA DEL COLLAR</label>
-                                <input type="checkbox" name="interested" value="1">
+                                <label for="interested_check">QUIERO SABER ACERCA DEL COLLAR</label>
+                                <input id="interested_check" type="checkbox" name="interested" value="1">
                             </div>
                             <input type="submit" value="">
                         </div>
