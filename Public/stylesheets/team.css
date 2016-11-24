@@ -58,18 +58,54 @@ p span {
     width: 100%;
 }
 
-#social_link, #contact_us_link {
+#social_link_container, #contact_us_link {
     display: block;
 }
 
-#social_link {
-    background: url('../img/joinus/siguenos.png');
+#social_link_container {
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    background: url('../img/common/siguenos_editada.png');
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
     height: 43px;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end; /* Safari 6.1+ */
     width: 199px;
 }
 
-#social_link:hover {
-    background: url('../img/joinus/siguenos_face.png');
+.social_link {
+    background-color: crimson;
+    display: block;
+    margin: 5px 9px 0px 3px;
+}
+
+#facebook_link {
+    background: url('../img/common/face_btn.png');
+    height: 32px;
+    margin-right: 3px;
+    width: 33px;
+}
+
+#facebook_link:hover {
+    background: url('../img/common/face_btn_activo.png');
+    height: 35px;
+    margin-top: 4px;
+    width: 35px;
+}
+
+#instagram_link {
+    background: url('../img/common/insta_btn.png');
+    height: 34px;
+    width: 34px;
+}
+
+#instagram_link:hover {
+    background: url('../img/common/insta_btn_activo.png');
+    height: 36px;
+    width: 36px;
 }
 
 #contact_us_link {
