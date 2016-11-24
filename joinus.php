@@ -77,14 +77,13 @@
             <nav id="contact_navigation">
                 <ul>
                     <li>
-                        <a id="social_link" href="#">
-                            <!-- <img src="./Public/img/joinus/siguenos.png" alt="Redes"/> -->
-                        </a>
+                        <div id="social_link_container">
+                            <a id="facebook_link" class="social_link" href="#"></a>
+                            <a id="instagram_link" class="social_link" href="#"></a>
+                        </div>
                     </li>
                     <li>
-                        <a id="contact_us_link" href="#">
-                            <!-- <img src="./Public/img/joinus/conocenos.png" alt="Conócenos"/> -->
-                        </a>
+                        <a id="contact_us_link" href="#"></a>
                     </li>
                 </ul>
             </nav>

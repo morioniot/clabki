@@ -10,7 +10,7 @@
 </head>
 <body>
 	<div id="wrapper">
-        <header>
+		<header>
             <div id="logo_container">
                 <a href="#">
                     <img src="./Public/img/joinus/logo.png" alt="Clabki"/>
@@ -19,14 +19,13 @@
             <nav id="contact_navigation">
                 <ul>
                     <li>
-                        <a id="social_link" href="#">
-                            <!-- <img src="./Public/img/joinus/siguenos.png" alt="Redes"/> -->
-                        </a>
+                        <div id="social_link_container">
+                            <a id="facebook_link" class="social_link" href="#"></a>
+                            <a id="instagram_link" class="social_link" href="#"></a>
+                        </div>
                     </li>
                     <li>
-                        <a id="contact_us_link" href="#">
-                            <!-- <img src="./Public/img/joinus/conocenos.png" alt="Conócenos"/> -->
-                        </a>
+                        <a id="contact_us_link" href="#"></a>
                     </li>
                 </ul>
             </nav>
@@ -35,18 +34,18 @@
 				<img src="./Public/img/main_image.jpg" alt="">
 		</section>
 		<section class="section" id="section_DeQueSeTrata">
-				<div id="pincel1_separator" class="section_separator"> 
+				<div id="pincel1_separator" class="section_separator">
 					<img src="./Public/img/pincel1.png">
-				</div> 
+				</div>
 				<div class="section-header">
 					<img src="./Public/img/dequesetrata_titulo.png" alt="">
 				</div>
-				<div  id="comunidad_sub_section" class="sub_section">  					
+				<div  id="comunidad_sub_section" class="sub_section">
 					<section id="comunidad_sub_section_container" class="sub_section_container">
-						<div class="text_description"> 
-							<div class="text_container"> 
+						<div class="text_description">
+							<div class="text_container">
 								<img src="./Public/img/comunidad.png" alt="">
-								<hr class="separator"> 
+								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> En <span> Clabki </span> creemos que podemos hacer mucho más por las mascotas perdidas. Por eso buscamos crear la comunidad más grande de personas con una idea en común: </p>
 									<p class="important_text"> “No queremos más mascotas lejos de su hogar“ </p>
@@ -56,40 +55,40 @@
 						</div>
 						<div id="comunidad_img_container" class="img_description">
 							<img src="./Public/img/comunidad_icono_17nov.png">
-						</div>						
+						</div>
 					</section>
 				</div>
-				<div id="pincel1_separator" class="section_separator"> 
+				<div id="pincel1_separator" class="section_separator">
 					<img src="./Public/img/pincel1.png">
 				</div>
-				<div  id="mascota_sub_section" class="sub_section"> 
-					<section id="mascota_sub_section_container" class="sub_section_container"> 
+				<div  id="mascota_sub_section" class="sub_section">
+					<section id="mascota_sub_section_container" class="sub_section_container">
 						<div id="mascota_img_container" class="img_description">
 							<img src="./Public/img/mascota_icono.png">
-						</div>						
-						<div id="mascota_text_container" class="text_description"> 
-							<div class="text_container"> 
+						</div>
+						<div id="mascota_text_container" class="text_description">
+							<div class="text_container">
 								<img src="./Public/img/unamascota.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> Es una mascota que tiene un dispositivo inteligente en su collar que emite una señal con la cual puede ser reconocida por los miembros de la comunidad que se encuentren cerca de ella. </p>
 								</div>
 							</div>
-						</div>						
+						</div>
 					</section>
 				</div>
 				<div id="pincel2_separator" class="section_separator">
 					<img src="./Public/img/pincel2.png">
 				</div>
-				<div  id="perdida_sub_section" class="sub_section"> 
-					<section id="perdida_sub_section_container" class="sub_section_container"> 
-						<div class="text_image_group"> 
+				<div  id="perdida_sub_section" class="sub_section">
+					<section id="perdida_sub_section_container" class="sub_section_container">
+						<div class="text_image_group">
 								<div class="text_description">
-									<div class="text_container"> 
+									<div class="text_container">
 										<img src="./Public/img/quepasa.png" alt="">
 										<hr class="separator">
 										<div class= "text_content">
-											<p class="simple_paragraph"> En caso de que una mascota <span> Clabki </span> se pierda, su dueño puede reportarla a través de la misma aplicación para que el radar formado por nuestra comunidad pueda detectarla. </p> 
+											<p class="simple_paragraph"> En caso de que una mascota <span> Clabki </span> se pierda, su dueño puede reportarla a través de la misma aplicación para que el radar formado por nuestra comunidad pueda detectarla. </p>
 										</div>
 									</div>
 								</div>
@@ -97,28 +96,28 @@
 									<img id="celular_img" src="./Public/img/celular.png">
 								</div>
 						</div>
-						<div  class="text_image_group"> 
+						<div  class="text_image_group">
 								<div class="img_description">
 									<img id="mapa_img" src="./Public/img/mapa.png">
 								</div>
 								<hr class="separator">
 								<div class="text_description">
-									<div class="text_container"> 
-										<div class= "text_content"> 
+									<div class="text_container">
+										<div class= "text_content">
 											<p class="simple_paragraph"> A partir de ese momento, cualquier miembro de <span> Clabki </span> que pase cerca de la mascota le reportará automáticamente a su dueño la ubicación en la cual se generó el encuentro. Diferentes encuentros le informarán al dueño los lugares por los cuales se está moviendo su mascota. </p>
 										</div>
 									</div>
 								</div>
-						</div>												
+						</div>
 					</section>
 				</div>
 				<div id="pincel3_separator" class="section_separator">
 					<img src="./Public/img/pincel3.png">
 				</div>
-				<div  id="reencuentro_sub_section" class="sub_section"> 
-					<section id="reencuentro_sub_section_container" class="sub_section_container"> 
-						<div id="final_feliz_text_container" class="text_description"> 
-							<div class="text_container"> 
+				<div  id="reencuentro_sub_section" class="sub_section">
+					<section id="reencuentro_sub_section_container" class="sub_section_container">
+						<div id="final_feliz_text_container" class="text_description">
+							<div class="text_container">
 								<img src="./Public/img/finalfeliz.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
@@ -126,20 +125,20 @@
 									<p class="important_text">Al final del día ganamos todos</p>
 								</div>
 							</div>
-						</div>	
+						</div>
 						<div id="final_feliz_img_container" class="img_description">
 
-						</div>						
+						</div>
 					</section>
-				</div>	
+				</div>
 				<div id="pincel4_separator" class="section_separator">
 					<img src="./Public/img/pincel4.png">
-				</div>		
-				<div  id="unete_sub_section" class="sub_section"> 
-					<section id="unete_sub_section_container" class="sub_section_container"> 
-						<div class="text_image_group"> 
+				</div>
+				<div  id="unete_sub_section" class="sub_section">
+					<section id="unete_sub_section_container" class="sub_section_container">
+						<div class="text_image_group">
 								<div class="text_description">
-									<div class="text_container"> 
+									<div class="text_container">
 										<img src="./Public/img/hazparte.png" alt="">
 										<hr class="separator">
 										<div class= "text_content">
@@ -148,10 +147,10 @@
 									</div>
 								</div>
 						</div>
-						<div class="text_image_group"> 
+						<div class="text_image_group">
 								<div class="text_description">
-									<p class="text_container"> 
-										<div class= "text_content"> 
+									<p class="text_container">
+										<div class= "text_content">
 											<p class="important_text">Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.</p>
 										</div>
 									</p>
@@ -161,7 +160,7 @@
 										<img id="quiero_img" src="./Public/img/quiero_btn.png">
 									</a>
 								</div>
-						</div>							
+						</div>
 					</section>
 				</div>
 		</section>

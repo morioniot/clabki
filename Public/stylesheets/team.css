@@ -76,12 +76,6 @@ p span {
     width: 199px;
 }
 
-.social_link {
-    background-color: crimson;
-    display: block;
-    margin: 5px 9px 0px 3px;
-}
-
 #facebook_link {
     background: url('../img/common/face_btn.png');
     height: 32px;
@@ -145,6 +139,12 @@ p span {
 
 #right_line {
     border-left: solid 3px #1a223c;
+}
+
+.social_link {
+    /*background-color: crimson;*/
+    display: block;
+    margin: 5px 9px 0px 3px;
 }
 
 .team_member_container {
