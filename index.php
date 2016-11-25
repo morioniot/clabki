@@ -59,7 +59,7 @@
 					</section>
 				</div>
 				<div id="pincel1_separator" class="section_separator">
-					<img src="./Public/img/pincel1.png">
+					<img src="./Public/img/main/pincel1.png">
 				</div>
 				<div  id="mascota_sub_section" class="sub_section">
 					<section id="mascota_sub_section_container" class="sub_section_container">
