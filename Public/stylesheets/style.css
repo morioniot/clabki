@@ -140,16 +140,21 @@ header {
   	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	justify-content: center;
 	-webkit-justify-content: center; /* Safari 7.0+ */
-	padding-bottom: 2%;
+	padding-top: 5%;
 	text-align: center;
 }
 
 .section_separator{
 /*	border:orange solid;*/
 	height: 40px;
+	position: relative;
 	width: 100%
 }
 
+.section_separator img{
+	position: absolute;
+	top:30%;
+}
 .sub_section{
 /*	border: red solid;*/
 	justify-content: center;
@@ -159,7 +164,7 @@ header {
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
   	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
-  	height: 620px;
+  	height: 660px;
 }
 
 .sub_section_container{
@@ -351,7 +356,7 @@ div.text_image_group div.text_description {
 
 	.sub_section{
 		height: auto;
-		padding-top: 5%;
+		padding-top: 15%;
 	}
 
 	#comunidad_sub_section{
@@ -385,6 +390,10 @@ div.text_image_group div.text_description {
 
 	#celular_img{
 		width: 75%;
+	}
+
+	#unete_sub_section_container .important_text {
+	     margin-top: 0; 
 	}
 
 	#unete_sub_section .text_image_group:nth-child(2) div.img_description img{

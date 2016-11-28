@@ -34,9 +34,9 @@
 				<img src="./Public/img/main/main_image.jpg" alt="">
 		</section>
 		<section class="section">
-				<div id="pincel1_separator" class="section_separator">
+<!-- 				<div id="pincel1_separator" class="section_separator">
 					<img src="./Public/img/main/pincel1.png">
-				</div>
+				</div> -->
 				<div class="section-header">
 					<img src="./Public/img/main/dequesetrata_titulo.png" alt="">
 				</div>
@@ -149,11 +149,11 @@
 						</div>
 						<div class="text_image_group">
 								<div class="text_description">
-									<p class="text_container">
+									<div class="text_container">
 										<div class= "text_content">
 											<p class="important_text">Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.</p>
 										</div>
-									</p>
+									</div>
 								</div>
 								<div class="img_description">
 									<a href="joinus.php">
