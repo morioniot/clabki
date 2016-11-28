@@ -20,7 +20,7 @@
                 <ul>
                     <li>
                         <div id="social_link_container">
-                            <a id="facebook_link" class="social_link" href="#"></a>
+                            <a id="facebook_link" class="social_link" href="fb://page/clabki"></a>
                             <a id="instagram_link" class="social_link" href="#"></a>
                         </div>
                     </li>
@@ -33,7 +33,7 @@
 		<section id="main_image">
 				<img src="./Public/img/main/main_image.jpg" alt="">
 		</section>
-		<section class="section" id="section_DeQueSeTrata">
+		<section class="section">
 				<div id="pincel1_separator" class="section_separator">
 					<img src="./Public/img/main/pincel1.png">
 				</div>
@@ -53,7 +53,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="comunidad_img_container" class="img_description">
+						<div  class="img_description">
 							<img src="./Public/img/main/comunidad_icono_17nov.png">
 						</div>
 					</section>
@@ -66,7 +66,7 @@
 						<div id="mascota_img_container" class="img_description">
 							<img src="./Public/img/main/mascota_icono.png">
 						</div>
-						<div id="mascota_text_container" class="text_description">
+						<div class="text_description">
 							<div class="text_container">
 								<img src="./Public/img/main/unamascota.png" alt="">
 								<hr class="separator">
@@ -98,7 +98,7 @@
 						</div>
 						<div  class="text_image_group">
 								<div class="img_description">
-									<img id="mapa_img" src="./Public/img/main/mapa.png">
+									<img src="./Public/img/main/mapa.png">
 								</div>
 								<hr class="separator">
 								<div class="text_description">
@@ -126,7 +126,7 @@
 								</div>
 							</div>
 						</div>
-						<div id="final_feliz_img_container" class="img_description">
+						<div  class="img_description">
 
 						</div>
 					</section>
@@ -157,7 +157,7 @@
 								</div>
 								<div class="img_description">
 									<a href="joinus.php">
-										<img id="quiero_img" src="./Public/img/main/quiero_btn.png">
+										<img src="./Public/img/main/quiero_btn.png">
 									</a>
 								</div>
 						</div>
