@@ -281,6 +281,7 @@ header {
 
 .small_field, .large_field, .check_box_container {
     align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -356,17 +357,47 @@ header {
         min-height: 67px;
     }
 
-    #join_us_form {
-        max-width: 450px;
-        width: 90%;
-    }
-
     #followers_count {
         min-width: 320px;
     }
 
     #followers_paragraph {
         width: 85%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    #form_container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #join_us_form {
+        background: #00cbd9;
+        border-radius: 20px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        width: 100%;
+    }
+
+    .small_field, .large_field {
+        align-items: flex-start;
+        -webkit-align-items: flex-start; /* Safari 7.0+ */
+        flex-direction: column;
+        -webkit-flex-direction: column; /* Safari 6.1+ */
+    }
+
+    .small_field input, .large_field textarea {
+        width: 100%;
+    }
+
+    .small_field label, .large_field label {
+        margin-bottom: 5px;
+    }
+
+    .check_box_container {
+        margin-top: 15px;
     }
 }
 
