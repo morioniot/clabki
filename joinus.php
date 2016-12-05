@@ -86,33 +86,22 @@
                 </div>
             </section>
             <section id="followers_container">
-                <section id="facebook-page">
-                    <div id="facebook-page-container">
-                        <div
-                        class="fb-page"
-                        data-href="https://www.facebook.com/geekedtshirts/"
-                        data-tabs="false"
-                        data-small-header="false"
-                        data-adapt-container-width="true"
-                        data-hide-cover="false"
-                        data-show-facepile="false">
-                            <blockquote
-                                cite="https://www.facebook.com/geekedtshirts/"
-                                class="fb-xfbml-parse-ignore">
-                                <a href="https://www.facebook.com/geekedtshirts/">Geeked</a>
-                            </blockquote>
-                        </div>
+                <div id="facebook_widget">
+                    <div class="widget_element" id="like_image">
+                        <a href="#">
+                            <img src="./Public/img/joinus/facebook_like.png" alt="Me gusta" />
+                        </a>
                     </div>
-                </section>
-                <section id="followers_count">
-                    <p id="followers_paragraph">
-                        Contigo, ya somos
-                        <span id="count_number">
-                            <?php echo(getPageFollowers()); ?>
-                        </span> personas
-                        mostrando interés por esta iniciativa
-                    </p>
-                </section>
+                    <div id="text_count_container" class="widget_element">
+                        <p>A <span id=facebook_count>15</span></p>
+                        <p class="bold_text">PERSONAS</p>
+                        <p>LES GUSTA</p>
+                        <p class="bold_text">CLABKI<span id="exclamation">!</span></p>
+                    </div>
+                    <div class="widget_element" id="lines_container">
+                        <img src="./Public/img/joinus/lines.png" />
+                    </div>
+                </div>
             </section>
         </section>
     </body>

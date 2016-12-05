@@ -226,51 +226,58 @@ header {
     margin-right: 8px;
 }
 
-#facebook-page {
-    /*background-color: #ccc;*/
-    padding: 30px;
-    width: 340px;
-}
-
-#facebook-page-container {
-    /*background-color: #666;*/
-    border-radius: 5px;
-    margin: 0 auto;
-    overflow: hidden;
-    width: 265px;
-}
-
 #followers_container {
-    /*background-color: red;*/
+    /*background-color: darkcyan;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    width: 50%;
 }
 
-#followers_count {
-    /*background-color: violet;*/
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    padding: 30px 0;
-    -webkit-box-flex: 1;   /* OLD - iOS 6-, Safari 3.1-6 */
-    -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
-    -ms-flex: 1;           /* IE 10 */
-    flex: 1;
-}
-
-#followers_paragraph {
-    /*background-color: pink;*/
-    font-size: 28px;
-    max-width: 400px;
+#facebook_widget {
+    /*background-color: orangered;*/
     margin: auto;
+    padding: 25px 0px;
+}
+
+#text_count_container {
+    /*background-color: navy;*/
+    color: #1a223c;
+    font-size: 45px;
+    font-family: mensch;
     text-align: center;
 }
 
-#followers_paragraph span {
-    font-weight: bolder;
+#text_count_container p {
+    word-spacing: -10px;
+}
+
+#facebook_count {
+    color: #fa5b61;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+#text_count_container .bold_text {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#exclamation {
+    font-weight: normal;
+}
+
+#lines_container {
+    margin: 0;
+    position: relative;
+}
+
+#lines_container img {
+    display: block;
+    left: -60px;
+    position: absolute;
+    top: -50px;
 }
 
 .social_link {
@@ -322,8 +329,10 @@ header {
     width: 15px;
 }
 
-.green_text {
-    color: green;
+.widget_element {
+    display: inline-block;
+    margin: 0 9px;
+    vertical-align: top;
 }
 
 @media screen and (max-width: 950px) {
@@ -341,28 +350,12 @@ header {
         -webkit-flex-wrap: wrap;
         flex-wrap: wrap;
     }
-
-    #followers_count {
-        min-width: 400px;
-    }
-
-    #facebook-page {
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 640px) {
 
     #shadow_container {
         min-height: 67px;
-    }
-
-    #followers_count {
-        min-width: 320px;
-    }
-
-    #followers_paragraph {
-        width: 85%;
     }
 }
 
