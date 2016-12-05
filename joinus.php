@@ -87,9 +87,9 @@
             </section>
             <section id="followers_container">
                 <div id="facebook_widget">
-                    <div class="widget_element" id="like_image">
+                    <div class="widget_element" id="like_image_container">
                         <a href="#">
-                            <img src="./Public/img/joinus/facebook_like.png" alt="Me gusta" />
+                            <!-- <img src="./Public/img/joinus/facebook_like.png" alt="Me gusta" /> -->
                         </a>
                     </div>
                     <div id="text_count_container" class="widget_element">

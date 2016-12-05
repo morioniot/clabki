@@ -232,20 +232,35 @@ header {
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
+    position: relative;
     width: 50%;
 }
 
 #facebook_widget {
     /*background-color: orangered;*/
+    left: -6px;
     margin: auto;
     padding: 25px 0px;
+    position: relative;
+}
+
+#like_image_container {
+    margin-right: 9px;
+}
+
+#like_image_container a {
+    background: url('../img/joinus/facebook_like.png');
+    display: block;
+    height: 175px;
+    width: 210px;
 }
 
 #text_count_container {
-    /*background-color: navy;*/
+    /*background-color: palegoldenrod;*/
     color: #1a223c;
     font-size: 45px;
     font-family: mensch;
+    margin-left: 9px;
     text-align: center;
 }
 
@@ -275,9 +290,9 @@ header {
 
 #lines_container img {
     display: block;
-    left: -60px;
+    left: -50px;
     position: absolute;
-    top: -50px;
+    top: -55px;
 }
 
 .social_link {
@@ -331,7 +346,6 @@ header {
 
 .widget_element {
     display: inline-block;
-    margin: 0 9px;
     vertical-align: top;
 }
 
@@ -347,8 +361,8 @@ header {
     }
 
     #followers_container {
-        -webkit-flex-wrap: wrap;
-        flex-wrap: wrap;
+        margin-top: 55px;
+        width: 100%;
     }
 }
 
@@ -371,6 +385,35 @@ header {
         padding-bottom: 25px;
         padding-top: 25px;
         width: 100%;
+    }
+
+    #like_image_container a {
+        background: url('../img/joinus/facebook_like.png');
+        background-size: 168px 140px;
+        background-repeat: no-repeat;
+        display: block;
+        height: 140px;
+        width: 168px;
+    }
+
+    #lines_container img {
+        height: auto;
+        left: -38px;
+        top: -45px;
+        width: 48.8px;
+    }
+
+    #text_count_container {
+        font-size: 36px;
+        margin-left: 9px;
+    }
+
+    #facebook_count {
+        font-size: 52px;
+    }
+
+    #text_count_container .bold_text {
+        font-size: 38.4px;
     }
 
     .small_field, .large_field {
