@@ -6,6 +6,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Concert+One|Source+Sans+Pro:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="./Public/stylesheets/style.css" type="text/css" media="all">
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script src="./Public/js/main.js"></script>
 	<title> Clabki | La mejor manera de encontrar a tu mascota perdida.</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <ul>
                     <li>
                         <div id="social_link_container">
-                            <a id="facebook_link" class="social_link" href="fb://page/clabki"></a>
+                            <a id="facebook_link" class="social_link" data-scheme="fb://page/516607761870650" href="https://www.facebook.com/clabki/?fref=ts"></a>
                             <a id="instagram_link" class="social_link" href="#"></a>
                         </div>
                     </li>
@@ -30,13 +31,13 @@
                 </ul>
             </nav>
         </header>
-		<section id="main_image">
-				<img src="./Public/img/main/main_image.jpg" alt="">
+		<section id="main_image_container">
+				<img id="main_image"  alt="">
+				<div id="pincel0_separator" class="section_separator">
+					<img src="./Public/img/main/pincel1.png">
+				</div>
 		</section>
 		<section class="section">
-<!-- 				<div id="pincel1_separator" class="section_separator">
-					<img src="./Public/img/main/pincel1.png">
-				</div> -->
 				<div class="section-header">
 					<img src="./Public/img/main/dequesetrata_titulo.png" alt="">
 				</div>
@@ -44,7 +45,7 @@
 					<section id="comunidad_sub_section_container" class="sub_section_container">
 						<div class="text_description">
 							<div class="text_container">
-								<img src="./Public/img/main/comunidad.png" alt="">
+								<img id="comunidad_title" src="./Public/img/main/comunidad.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> En <span> Clabki </span> creemos que podemos hacer mucho más por las mascotas perdidas. Por eso buscamos crear la comunidad más grande de personas con una idea en común: </p>
@@ -68,7 +69,7 @@
 						</div>
 						<div class="text_description">
 							<div class="text_container">
-								<img src="./Public/img/main/unamascota.png" alt="">
+								<img id="mascota_title" src="./Public/img/main/unamascota.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> Es una mascota que tiene un dispositivo inteligente en su collar que emite una señal con la cual puede ser reconocida por los miembros de la comunidad que se encuentren cerca de ella. </p>
@@ -83,9 +84,9 @@
 				<div  id="perdida_sub_section" class="sub_section">
 					<section id="perdida_sub_section_container" class="sub_section_container">
 						<div class="text_image_group">
-								<div class="text_description">
+								<div>
 									<div class="text_container">
-										<img src="./Public/img/main/quepasa.png" alt="">
+										<img id="perdida_title" src="./Public/img/main/quepasa.png" alt="">
 										<hr class="separator">
 										<div class= "text_content">
 											<p class="simple_paragraph"> En caso de que una mascota <span> Clabki </span> se pierda, su dueño puede reportarla a través de la misma aplicación para que el radar formado por nuestra comunidad pueda detectarla. </p>
@@ -101,7 +102,7 @@
 									<img src="./Public/img/main/mapa.png">
 								</div>
 								<hr class="separator">
-								<div class="text_description">
+								<div>
 									<div class="text_container">
 										<div class= "text_content">
 											<p class="simple_paragraph"> A partir de ese momento, cualquier miembro de <span> Clabki </span> que pase cerca de la mascota le reportará automáticamente a su dueño la ubicación en la cual se generó el encuentro. Diferentes encuentros le informarán al dueño los lugares por los cuales se está moviendo su mascota. </p>
@@ -118,7 +119,7 @@
 					<section id="reencuentro_sub_section_container" class="sub_section_container">
 						<div id="final_feliz_text_container" class="text_description">
 							<div class="text_container">
-								<img src="./Public/img/main/finalfeliz.png" alt="">
+								<img id="final_feliz_title" src="./Public/img/main/finalfeliz.png" alt="">
 								<hr class="separator">
 								<div class= "text_content">
 									<p class="simple_paragraph"> Una vez la mascota Clabki esté en su hogar de nuevo, te avisaremos que has sido parte fundamental del reencuentro de una familia.</p>
@@ -137,9 +138,9 @@
 				<div  id="unete_sub_section" class="sub_section">
 					<section id="unete_sub_section_container" class="sub_section_container">
 						<div class="text_image_group">
-								<div class="text_description">
+								<div >
 									<div class="text_container">
-										<img src="./Public/img/main/hazparte.png" alt="">
+										<img id="unete_title" src="./Public/img/main/hazparte.png" alt="">
 										<hr class="separator">
 										<div class= "text_content">
 											<p class="simple_paragraph"> Anímate a ser parte <span> del radar más grande de mascotas perdidas. </span> Lo único que tendrás que hacer es descargar una aplicación gratuita en tu celular. Con ella podrás buscar mascotas perdidas mientras corres, montas bici, vas al trabajo, o realizas cualquier actividad de tu vida cotidiana. </p>
@@ -148,14 +149,14 @@
 								</div>
 						</div>
 						<div class="text_image_group">
-								<div class="text_description">
+								<div >
 									<div class="text_container">
 										<div class= "text_content">
 											<p class="important_text">Entre más seamos, más efectiva será nuestra búsqueda y menor el número de mascotas lejos de su hogar.</p>
 										</div>
 									</div>
 								</div>
-								<div class="img_description">
+								<div id="joinus_container"class="img_description">
 									<a href="joinus.php">
 										<img src="./Public/img/main/quiero_btn.png">
 									</a>

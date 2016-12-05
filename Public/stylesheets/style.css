@@ -118,9 +118,13 @@ header {
     background: url('../img/common/conocenos_activo.png');
 }
 
-#main_image img{
-	height: auto;
-	width: 100%
+#main_image{
+	background-image: url('../img/main/main_image.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;             
+	height: 0;
+	padding-top: 50.85%;
+	width: 100%;
 }
 
 .social_link {
@@ -155,6 +159,13 @@ header {
 	position: absolute;
 	top:30%;
 }
+
+#pincel0_separator img{
+	position: absolute;
+	top:-70%;
+	width: 100%;
+}
+
 .sub_section{
 /*	border: red solid;*/
 	justify-content: center;
@@ -184,7 +195,7 @@ header {
 	width: 100%;
 }
 
-#comunidad_sub_section, #comunidad_sub_section_container, #pincel1_separator {
+#comunidad_sub_section, #comunidad_sub_section_container, #pincel1_separator, #pincel0_separator {
 	background-color: #FFFEEB;
 }
 
@@ -241,7 +252,7 @@ div.text_image_group div.text_description {
 	width: 100%;
 }
 
-.text_description{
+.text_description {
 	align-items:center;
 	-webkit-align-items:center;
 /*	border: red;
@@ -252,19 +263,27 @@ div.text_image_group div.text_description {
   	display: -webkit-flex;     /* NEW - Chrome */
   	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
     justify-content: center;
-    text-align: center;
     -webkit-justify-content: center; /* Safari 7.0+ */
+    text-align: center;
 	width: 37%;
 }
 
-.text_description .text_content .simple_paragraph{
+ .text_content{
+ 	text-align: center
+ }
+
+ .text_container{
+ 	text-align: center;
+ }
+
+ .text_content .simple_paragraph{
 	color: #1A223C;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 17px;
 	line-height: 22.5px;
 }
 
-.text_description .text_content .important_text{
+ .text_content .important_text{
 	color: #1A223C;
 	font-family: 'Concert One', cursive;
 	font-size:32.32px;
@@ -284,6 +303,8 @@ div.text_image_group div.text_description {
 }
 
 .img_description{
+    justify-content: center;
+    -webkit-justify-content: center; /* Safari 7.0+ */	
 /*	border: black;
 	border-style: solid;*/
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -292,8 +313,6 @@ div.text_image_group div.text_description {
   	display: -webkit-flex;     /* NEW - Chrome */
   	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	height: auto;
-    justify-content: center;
-    -webkit-justify-content: center; /* Safari 7.0+ */
 	width: 40%;
 }
 
@@ -354,6 +373,12 @@ div.text_image_group div.text_description {
 		width: 350px;
 	}
 
+	#main_image{
+		background-image: url('../img/main/main_image_medium.jpg');
+	    padding-top: 61.81%;
+/*		height: 476px;*/
+	}
+
 	.sub_section{
 		height: auto;
 		padding-top: 15%;
@@ -365,6 +390,16 @@ div.text_image_group div.text_description {
 
 	.sub_section_container{
 		display: block;
+	}
+
+	.text_content .simple_paragraph{
+		font-size: 19px;
+		line-height: 22.5px;
+	}
+
+	.text_content .important_text{
+		font-size:34.32px;
+		line-height: 32.9px;
 	}
 
 	.text_description, .text_image_group{
@@ -396,7 +431,20 @@ div.text_image_group div.text_description {
 	     margin-top: 0; 
 	}
 
+	#joinus_container{
+		margin-left: 15% !important;
+		width: 70% !important;
+	}
+
+	#unete_sub_section .text_image_group:nth-child(2) div.img_description a{
+		display: flex;
+		display: -webkit-flex;
+		justify-content:center;
+		-webkit-justify-content: center;
+	}
+
 	#unete_sub_section .text_image_group:nth-child(2) div.img_description img{
+		height: 150px;
 		width: 420px;
 	}
 
@@ -404,14 +452,37 @@ div.text_image_group div.text_description {
 
 @media screen and (max-width: 640px) {
 
+	#main_image{
+		background-image: url('../img/main/main_image_small.jpg');
+		padding-top: 146.15%;
+/*		height: 760px;*/
+	}
+
 	.img_description, .text_description, .text_image_group{
 		margin-left: 10% !important;
 		margin-bottom: 5%;
 		width: 80% !important;
 	}
 
+	#joinus_container{
+		margin-left: 5% !important;
+		width: 90% !important;
+	}
+
 	#unete_sub_section .text_image_group:nth-child(2) div.img_description img{
 		width: 320px;
 	}
+	
+	#comunidad_title, #perdida_title{
+		width:100%
+	}	
 
+	#mascota_title{
+		width: 80%;
+	}
+
+	#final_feliz_title, #unete_title{
+		width: 70%;
+	}
 }
+
