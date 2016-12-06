@@ -50,16 +50,19 @@
                 <div id="info_paragraph">
                     <div id="info_title"></div>
                     <hr>
-                    <p id="info_text">
-                        ¡Gracias por tu interés! Te contamos que en este momento
-                        estamos trabajando en llevar esta idea al siguiente nivel.
-                        Si quieres mantenerte informado sobre nuestros avances,
-                        <span>síguenos en nuestras redes sociales.</span> Puedes
-                        decirnos lo que piensas usando este formulario. En caso
-                        de que estés interesado en el dispositivo para el collar,
-                        cuéntanos y te enviaremos la información a tu correo.
+                    <p class="info_text">
+                        ¡Gracias por tu interés! Te contamos que este proyecto
+                        aún se encuentra en desarrollo y estamos trabajando
+                        fuertemente para hacer de esta iniciativa una realidad.
                     </p>
-                    <hr>
+                    <p class="info_text">
+                        No te desanimes, puedes hacer parte de Clabki desde ya
+                        <span>siguiéndonos en nuestras redes sociales</span> en
+                        donde te contaremos cómo vamos avanzando. En caso de que
+                        quieras dejarnos algún comentario o saber más sobre el
+                        dispositivo para el collar, puedes usar el siguiente
+                        formulario.
+                    </p>
                 </div>
                 <div id="form_container">
                     <form id="join_us_form" action="/app/joinus.php" method="post">
