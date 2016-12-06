@@ -26,7 +26,7 @@
                         </div>
                     </li>
                     <li>
-                        <a id="contact_us_link" href="#"></a>
+                        <a id="contact_us_link" href="./team.html"></a>
                     </li>
                 </ul>
             </nav>

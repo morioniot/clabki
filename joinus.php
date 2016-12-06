@@ -37,7 +37,7 @@
                         </div>
                     </li>
                     <li>
-                        <a id="contact_us_link" href="#"></a>
+                        <a id="contact_us_link" href="./team.html"></a>
                     </li>
                 </ul>
             </nav>
@@ -88,12 +88,14 @@
             <section id="followers_container">
                 <div id="facebook_widget">
                     <div class="widget_element" id="like_image_container">
-                        <a href="#">
-                            <!-- <img src="./Public/img/joinus/facebook_like.png" alt="Me gusta" /> -->
-                        </a>
+                        <a href="#"></a>
                     </div>
                     <div id="text_count_container" class="widget_element">
-                        <p>A <span id=facebook_count>15</span></p>
+                        <p>A
+                            <span id=facebook_count>
+                                <?php echo getPageFollowers(); ?>
+                            </span>
+                        </p>
                         <p class="bold_text">PERSONAS</p>
                         <p>LES GUSTA</p>
                         <p class="bold_text">CLABKI<span id="exclamation">!</span></p>
