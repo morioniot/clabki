@@ -118,6 +118,10 @@ header {
     background: url('../img/common/conocenos_activo.png');
 }
 
+#main_image_container{
+	background-color: #FFFEE8;
+}
+
 #main_image{
 	background-image: url('../img/main/main_image.jpg');
     background-repeat: no-repeat;
@@ -144,8 +148,17 @@ header {
   	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 	justify-content: center;
 	-webkit-justify-content: center; /* Safari 7.0+ */
-	padding-top: 5%;
+/*	padding-top: 5%;*/
 	text-align: center;
+}
+
+.section-header img{
+	background-image: url('../img/main/dequesetrata_titulo.png');
+    background-repeat: no-repeat;
+    background-size: contain;             
+	height: 0;
+	padding-top: 5%;
+	width: 30%;	
 }
 
 .section_separator{
@@ -227,6 +240,7 @@ header {
 
 #perdida_sub_section .text_image_group:nth-child(2){
 	margin-left: 95px;
+	margin-bottom: 5%;
 }
 
 #unete_sub_section .text_image_group:nth-child(2){
@@ -349,7 +363,7 @@ div.text_image_group div.text_description {
 	margin-top: 0;
 }
 
-#mascota_img_container {
+#mascota_img_container, #reencuentro_img_container {
 	position: relative;
 }
 
@@ -358,6 +372,13 @@ div.text_image_group div.text_description {
 	top: -200px;
 	position: absolute;
 	width: 130%;
+}
+
+#reencuentro_img_container img{
+	position: absolute;
+	left: -18%;
+	top: -300px;
+	width: 160%;
 }
 
 /* Responsive */
@@ -369,14 +390,13 @@ div.text_image_group div.text_description {
 	}
 
 	.section-header img{
-		padding-bottom: 5px;
-		width: 350px;
+		padding-top: 13.36%;
+		width: 80%;
 	}
 
 	#main_image{
 		background-image: url('../img/main/main_image_medium.jpg');
 	    padding-top: 61.81%;
-/*		height: 476px;*/
 	}
 
 	.sub_section{
@@ -416,7 +436,7 @@ div.text_image_group div.text_description {
 		width: 50% !important;
 	}
 
-	#mascota_img_container img{
+	#reencuentro_img_container > img, #mascota_img_container > img {
 		left: 0;
 		top: 0;
 		position: relative;
@@ -450,12 +470,15 @@ div.text_image_group div.text_description {
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 520px) {
 
 	#main_image{
 		background-image: url('../img/main/main_image_small.jpg');
 		padding-top: 146.15%;
-/*		height: 760px;*/
+	}
+
+	#pincel0_separator img{
+		top:-30%;
 	}
 
 	.img_description, .text_description, .text_image_group{
@@ -479,6 +502,10 @@ div.text_image_group div.text_description {
 
 	#mascota_title{
 		width: 80%;
+	}
+
+	#perdida_sub_section .text_image_group:nth-child(2) div.img_description img{
+	    width: 150%;
 	}
 
 	#final_feliz_title, #unete_title{

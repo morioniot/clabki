@@ -33,13 +33,13 @@
         </header>
 		<section id="main_image_container">
 				<img id="main_image"  alt="">
+		</section>
+		<section class="section">
 				<div id="pincel0_separator" class="section_separator">
 					<img src="./Public/img/main/pincel1.png">
 				</div>
-		</section>
-		<section class="section">
 				<div class="section-header">
-					<img src="./Public/img/main/dequesetrata_titulo.png" alt="">
+					<img  alt="">
 				</div>
 				<div  id="comunidad_sub_section" class="sub_section">
 					<section id="comunidad_sub_section_container" class="sub_section_container">
@@ -99,7 +99,7 @@
 						</div>
 						<div  class="text_image_group">
 								<div class="img_description">
-									<img src="./Public/img/main/mapa.png">
+									<img src="./Public/img/main/caso_de_perdida.png">
 								</div>
 								<hr class="separator">
 								<div>
@@ -127,8 +127,8 @@
 								</div>
 							</div>
 						</div>
-						<div  class="img_description">
-
+						<div id="reencuentro_img_container" class="img_description">
+							<img src="./Public/img/main/perrito_feliz.png">
 						</div>
 					</section>
 				</div>
