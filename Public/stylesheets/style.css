@@ -553,6 +553,13 @@ div.text_image_group div.text_description {
 	}
 }
 
+@media screen and (max-width: 750px) {
+
+    #contact_navigation {
+        margin-right: 15px;
+    }
+}
+
 @media screen and (max-width: 640px) {
 
     #logo_container {
@@ -583,13 +590,6 @@ div.text_image_group div.text_description {
 
     .social_link {
         margin: 6px 3px 0px 3px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-
-    #contact_navigation {
-        margin-right: 15px;
     }
 }
 
