@@ -23,8 +23,13 @@
                     </li>
                     <li>
                         <div id="social_link_container">
+
+                           <a id="facebook_link" class="social_link" data-scheme="fb://page/516607761870650" href="https://www.facebook.com/clabki/?fref=ts"></a>
+                           <a id="instagram_link" class="social_link" href="#"></a>
+
                             <a class="facebook_link social_link" href="#"></a>
                             <a class="instagram_link social_link" href="#"></a>
+
                         </div>
                     </li>
                     <li>

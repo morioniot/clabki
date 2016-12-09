@@ -395,8 +395,9 @@ div.text_image_group div.text_description {
 }
 
 #celular_img{
+	height: auto;
+	margin-top: 5px;
 	width: 55%;
-	height: 220px;
 }
 
 #comunidad_sub_section_container .img_description{
@@ -440,7 +441,8 @@ div.text_image_group div.text_description {
 }
 
 #perdida_sub_section .text_image_group:nth-child(2) div.img_description img{
-    width: 140%;
+    width: 400px;
+    height: 340px;
 }
 
 #reencuentro_img_container img{
@@ -520,6 +522,7 @@ div.text_image_group div.text_description {
 	#celular_img{
 		width: 75%;
 	}
+
 
 	#unete_sub_section_container .important_text {
 	     margin-top: 0;
