@@ -24,20 +24,36 @@
     <body>
         <header>
             <div id="logo_container">
-                <a href="#">
-                    <img src="./Public/img/common/logo.png" alt="Clabki"/>
+                <a href="./">
                 </a>
             </div>
             <nav id="contact_navigation">
-                <ul>
+                <ul id="desktop_navigation">
+                    <li>
+                        <a id="home_link" href="./"></a>
+                    </li>
                     <li>
                         <div id="social_link_container">
-                            <a id="facebook_link" class="social_link" href="#"></a>
-                            <a id="instagram_link" class="social_link" href="#"></a>
+                            <a class="facebook_link social_link" href="#"></a>
+                            <a class="instagram_link social_link" href="#"></a>
                         </div>
                     </li>
                     <li>
                         <a id="contact_us_link" href="./team.html"></a>
+                    </li>
+                </ul>
+                <ul id="mobile_navigation">
+                    <li>
+                        <a id="home_link_mobile" href="./"></a>
+                    </li>
+                    <li>
+                        <div id="social_link_container_mobile">
+                            <a class="facebook_link social_link" href="#"></a>
+                            <a class="instagram_link social_link" href="#"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <a id="contact_us_link_mobile" href="./team.html"></a>
                     </li>
                 </ul>
             </nav>

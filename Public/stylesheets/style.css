@@ -34,23 +34,32 @@ header {
 }
 
 #logo_container {
+
     /*background-color: #666;*/
-    padding: 5px 20px;
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    padding-left: 15px;
 }
 
-#logo_container img {
-    height: auto;
+#logo_container a {
+    background: url('../img/common/logo.png');
+    display: block;
+    height: 60px;
     width: 130px;
 }
 
 #contact_navigation {
     /*background-color: #ccc;*/
-    margin-right: 50px;
+    margin-right: 30px;
     position: relative;
-    width: 380px;
+    width: 460px;
 }
 
-#contact_navigation ul {
+#desktop_navigation {
     bottom: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -64,9 +73,20 @@ header {
     width: 100%;
 }
 
-#social_link_container, #contact_us_link {
+#social_link_container, #contact_us_link, #home_link, #social_link_container_mobile,
+#contact_us_link_mobile, #home_link_mobile {
     display: block;
 }
+
+#home_link {
+    background: url('../img/common/home_activo.png');
+    height: 44px;
+    width: 76px;
+}
+
+/*#home_link:hover {
+    background: url('../img/common/home_activo.png');
+}*/
 
 #social_link_container {
     align-items: center;
@@ -82,32 +102,6 @@ header {
     width: 199px;
 }
 
-#facebook_link {
-    background: url('../img/common/face_btn.png');
-    height: 32px;
-    margin-right: 3px;
-    width: 33px;
-}
-
-#facebook_link:hover {
-    background: url('../img/common/face_btn_activo.png');
-    height: 35px;
-    margin-top: 4px;
-    width: 35px;
-}
-
-#instagram_link {
-    background: url('../img/common/insta_btn.png');
-    height: 34px;
-    width: 34px;
-}
-
-#instagram_link:hover {
-    background: url('../img/common/insta_btn_activo.png');
-    height: 36px;
-    width: 36px;
-}
-
 #contact_us_link {
     background: url('../img/common/conocenos.png');
     height: 43px;
@@ -118,6 +112,52 @@ header {
     background: url('../img/common/conocenos_activo.png');
 }
 
+#mobile_navigation {
+    bottom: 0;
+    display: none;
+    justify-content: space-between;
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    list-style: none;
+    position: absolute;
+    width: 100%;
+}
+
+#home_link_mobile {
+    background: url('../img/common/home_movil_activo.png');
+    height: 44px;
+    width: 51px;
+}
+
+/*#home_link_mobile:hover {
+    background: url('../img/common/home_movil_activo.png');
+    height: 44px;
+    width: 50px;
+}*/
+
+#social_link_container_mobile {
+    align-items: center;
+    -webkit-align-items: center; /* Safari 7.0+ */
+    background: url('../img/common/contenedor_redes_movil.png');
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 43px;
+    justify-content: center;;
+    -webkit-justify-content: center; /* Safari 6.1+ */
+    width: 98px;
+}
+
+#contact_us_link_mobile {
+    background: url('../img/common/conocenos_movil.png');
+    height: 44px;
+    width: 62px;
+}
+
+#contact_us_link_mobile:hover {
+    background: url('../img/common/conocenos_movil_activo.png');
+}
+
 #main_image_container{
 	background-color: #FFFEE8;
 }
@@ -125,7 +165,7 @@ header {
 #main_image{
 	background-image: url('../img/main/main_image.jpg');
     background-repeat: no-repeat;
-    background-size: contain;             
+    background-size: contain;
 	height: 0;
 	padding-top: 50.85%;
 	width: 100%;
@@ -135,6 +175,27 @@ header {
     /*background-color: crimson;*/
     display: block;
     margin: 5px 9px 0px 3px;
+}
+
+.facebook_link {
+    background: url('../img/common/facebook_btn.png');
+    height: 36px;
+    margin-right: 3px;
+    width: 36px;
+}
+
+.facebook_link:hover {
+    background: url('../img/common/facebook_btn_activo.png');
+}
+
+.instagram_link {
+    background: url('../img/common/instagram_btn.png');
+    height: 36px;
+    width: 36px;
+}
+
+.instagram_link:hover {
+    background: url('../img/common/instagram_btn_activo.png');
 }
 
 .section-header{
@@ -155,10 +216,10 @@ header {
 .section-header img{
 	background-image: url('../img/main/dequesetrata_titulo.png');
     background-repeat: no-repeat;
-    background-size: contain;             
+    background-size: contain;
 	height: 0;
 	padding-top: 5%;
-	width: 30%;	
+	width: 30%;
 }
 
 .section_separator{
@@ -317,7 +378,7 @@ div.text_image_group div.text_description {
 
 .img_description{
     justify-content: center;
-    -webkit-justify-content: center; /* Safari 7.0+ */	
+    -webkit-justify-content: center; /* Safari 7.0+ */
 /*	border: black;
 	border-style: solid;*/
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -343,7 +404,7 @@ div.text_image_group div.text_description {
 }
 
 #reencuentro_sub_section_container{
-	overflow-x: hidden; 
+	overflow-x: hidden;
 }
 
 #reencuentro_sub_section_container .img_description{
@@ -355,7 +416,7 @@ div.text_image_group div.text_description {
 	width: 35%;
 }
 
-#reencuentro_sub_section_container .text_description{	
+#reencuentro_sub_section_container .text_description{
 	width:38%;
 }
 
@@ -434,7 +495,7 @@ div.text_image_group div.text_description {
 		margin-left: 15% !important;
 		margin-bottom: 5%;
 		width: 70% !important;
-	}	
+	}
 
 	.img_description {
 		align-items:center;
@@ -461,7 +522,7 @@ div.text_image_group div.text_description {
 	}
 
 	#unete_sub_section_container .important_text {
-	     margin-top: 0; 
+	     margin-top: 0;
 	}
 
 	#joinus_container{
@@ -489,6 +550,46 @@ div.text_image_group div.text_description {
 	}
 }
 
+@media screen and (max-width: 640px) {
+
+    #logo_container {
+        padding-left: 10px;
+    }
+
+    #logo_container a {
+        background: url('../img/common/logo_mobile.png');
+        height: 46px;
+        width: 100px;
+    }
+
+    #contact_navigation {
+        margin-right: 5px;
+        width: 230px;
+    }
+
+    #desktop_navigation {
+        display: none;
+    }
+
+    #mobile_navigation {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+    }
+
+    .social_link {
+        margin: 6px 3px 0px 3px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    #contact_navigation {
+        margin-right: 15px;
+    }
+}
+
 @media screen and (max-width: 520px) {
 
 	#main_image{
@@ -514,10 +615,10 @@ div.text_image_group div.text_description {
 	#unete_sub_section .text_image_group:nth-child(2) div.img_description img{
 		width: 320px;
 	}
-	
+
 	#comunidad_title, #perdida_title{
 		width:100%
-	}	
+	}
 
 	#mascota_title{
 		width: 80%;
@@ -531,4 +632,3 @@ div.text_image_group div.text_description {
 		width: 70%;
 	}
 }
-
