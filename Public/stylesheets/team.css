@@ -211,6 +211,7 @@ p span {
 .team_member_container {
     /*background-color: brown;*/
     border-radius: 5px;
+    height: 510px;
     margin: 20px;
     width: 280px;
 }
