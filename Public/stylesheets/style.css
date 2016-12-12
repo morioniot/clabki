@@ -315,6 +315,7 @@ header {
 
 #unete_sub_section .text_image_group:nth-child(2) div.img_description img{
 	cursor:pointer;
+	height: 200px;
 	width: 450px;
 }
 
@@ -323,6 +324,7 @@ div.text_image_group div.text_description {
 }
 
 #perdida_sub_section div.text_image_group div.img_description {
+	margin-top: 5%;
 	width: 100%;
 }
 
@@ -396,8 +398,7 @@ div.text_image_group div.text_description {
 
 #celular_img{
 	height: auto;
-	margin-top: 5px;
-	width: 55%;
+	width: auto;
 }
 
 #comunidad_sub_section_container .img_description{
@@ -440,9 +441,10 @@ div.text_image_group div.text_description {
 	width: 130%;
 }
 
-#perdida_sub_section .text_image_group:nth-child(2) div.img_description img{
-    width: 400px;
-    height: 340px;
+#perdida_sub_section .text_image_group:nth-child(2) div.img_description img {
+    margin-left: 20%;
+    height: auto;
+    width: 140%;
 }
 
 #reencuentro_img_container img{
@@ -460,19 +462,19 @@ div.text_image_group div.text_description {
 		 width: 65px;
 	}
 
-	.section-header img{
-		padding-top: 13.36%;
-		width: 80%;
-	}
-
 	#main_image{
 		background-image: url('../img/main/main_image_medium.jpg');
 	    padding-top: 61.81%;
 	}
 
+	.section-header img{
+		padding-top: 10%;
+		width: 60%;
+	}
+
 	.sub_section{
 		height: auto;
-		padding-top: 15%;
+		padding-top: 8%;
 	}
 
 	#comunidad_sub_section{
@@ -508,8 +510,20 @@ div.text_image_group div.text_description {
 		width: 50% !important;
 	}
 
+ 	#mascota_sub_section_container{
+		display: flex;
+		display: -webkit-flex;
+		flex-direction: column-reverse;
+		-webkit-flex-direction: column-reverse; 		
+ 	}
+
 	#mascota_img_container{
-		margin-top: 0%;
+		margin-top: 0 ;
+		margin-left: 0 !important;
+	}
+
+	#mascota_sub_section_container .text_description{
+		margin-left: 0 !important;
 	}
 
 	#reencuentro_img_container > img, #mascota_img_container > img {
@@ -523,6 +537,9 @@ div.text_image_group div.text_description {
 		width: 75%;
 	}
 
+	#perdida_sub_section .text_image_group:nth-child(2) div.img_description img {
+	    margin-left: 0;
+	}
 
 	#unete_sub_section_container .important_text {
 	     margin-top: 0;
@@ -548,7 +565,7 @@ div.text_image_group div.text_description {
 	}
 
 	#unete_sub_section .text_image_group:nth-child(2) div.img_description img{
-		height: 150px;
+		height: 188px;
 		width: 420px;
 	}
 }
@@ -558,6 +575,7 @@ div.text_image_group div.text_description {
     #contact_navigation {
         margin-right: 15px;
     }
+
 }
 
 @media screen and (max-width: 640px) {
@@ -604,6 +622,11 @@ div.text_image_group div.text_description {
 		top:-30%;
 	}
 
+	.section-header img{
+		padding-top: 13.36%;
+		width: 80%;
+	}
+
 	.img_description, .text_description, .text_image_group{
 		margin-left: 10% !important;
 		margin-bottom: 5%;
@@ -616,7 +639,8 @@ div.text_image_group div.text_description {
 	}
 
 	#unete_sub_section .text_image_group:nth-child(2) div.img_description img{
-		width: 320px;
+		height: 125px;
+		width: 280px;
 	}
 
 	#comunidad_title, #perdida_title{
