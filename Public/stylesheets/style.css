@@ -213,7 +213,7 @@ header {
 	text-align: center;
 }
 
-.section-header img{
+.section-header div{
 	background-image: url('../img/main/dequesetrata_titulo.png');
     background-repeat: no-repeat;
     background-size: contain;
@@ -255,7 +255,7 @@ header {
 .sub_section_container{
 	align-items: center;
 	-webkit-align-items: center; /* Safari 7.0+ */
-/*	border: blue solid;*/
+	border: blue solid;
 	justify-content: center;
 	-webkit-justify-content: center; /* Safari 7.0+ */
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -270,7 +270,7 @@ header {
 }
 
 #comunidad_sub_section, #comunidad_sub_section_container, #pincel1_separator, #pincel0_separator {
-	background-color: #FFFEEB;
+	background-color: #FFFFEE;
 }
 
 #comunidad_sub_section{
@@ -278,11 +278,11 @@ header {
 }
 
 #mascota_sub_section, #mascota_sub_section_container, #pincel2_separator{
-	background-color: #E1F2F3;
+	background-color: #E3F5F6;
 }
 
 #perdida_sub_section, #perdida_sub_section_container, #pincel3_separator{
-	background-color: #FAF3EF;
+	background-color: #FCF3EF;
 }
 
 #reencuentro_sub_section, #reencuentro_sub_section_container, #pincel4_separator {
@@ -326,6 +326,11 @@ div.text_image_group div.text_description {
 #perdida_sub_section div.text_image_group div.img_description {
 	margin-top: 5%;
 	width: 100%;
+}
+
+#perdida_sub_section .text_image_group:nth-child(2) div.img_description {
+    margin-left: -13%;
+    width: 140%;
 }
 
 .text_description {
@@ -381,8 +386,8 @@ div.text_image_group div.text_description {
 .img_description{
     justify-content: center;
     -webkit-justify-content: center; /* Safari 7.0+ */
-/*	border: black;
-	border-style: solid;*/
+	border: black;
+	border-style: solid;
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -442,9 +447,8 @@ div.text_image_group div.text_description {
 }
 
 #perdida_sub_section .text_image_group:nth-child(2) div.img_description img {
-    margin-left: 20%;
     height: auto;
-    width: 140%;
+    width: 100%;
 }
 
 #reencuentro_img_container img{
@@ -467,7 +471,7 @@ div.text_image_group div.text_description {
 	    padding-top: 61.81%;
 	}
 
-	.section-header img{
+	.section-header div{
 		padding-top: 10%;
 		width: 60%;
 	}
@@ -508,6 +512,11 @@ div.text_image_group div.text_description {
 		margin-left: 25% !important;
 		margin-top: 10%;
 		width: 50% !important;
+	}
+
+	#perdida_sub_section .text_image_group:nth-child(2) div.img_description {
+	    margin-left: 12.5% !important;
+		width: 75% !important;
 	}
 
  	#mascota_sub_section_container{
@@ -622,7 +631,7 @@ div.text_image_group div.text_description {
 		top:-30%;
 	}
 
-	.section-header img{
+	.section-header div{
 		padding-top: 13.36%;
 		width: 80%;
 	}
@@ -630,6 +639,11 @@ div.text_image_group div.text_description {
 	.img_description, .text_description, .text_image_group{
 		margin-left: 10% !important;
 		margin-bottom: 5%;
+		width: 80% !important;
+	}
+
+	#perdida_sub_section .text_image_group:nth-child(2) div.img_description {
+	    margin-left: 10% !important;
 		width: 80% !important;
 	}
 

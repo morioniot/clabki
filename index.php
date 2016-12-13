@@ -8,6 +8,14 @@
 	<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 	<script src="./Public/js/main.js"></script>
 	<title> Clabki | La mejor manera de encontrar a tu mascota perdida.</title>
+	<script type="text/javascript">
+	    window.smartlook||(function(d) {
+	    var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+	    var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+	    c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+	    })(document);
+	    smartlook('init', 'd8012322507d41d8e95fb8247096bca00669fc19');
+	</script>
 </head>
 <body>
 	<div id="wrapper">
@@ -24,11 +32,10 @@
                     <li>
                         <div id="social_link_container">
 
-                           <a id="facebook_link" class="social_link" data-scheme="fb://page/516607761870650" href="https://www.facebook.com/clabki/?fref=ts"></a>
+                           <a id="facebook_link" class="social_link" href="#"></a>
                            <a id="instagram_link" class="social_link" href="#"></a>
-
-                            <a class="facebook_link social_link" href="#"></a>
-                            <a class="instagram_link social_link" href="#"></a>
+                           <a class="facebook_link social_link" href="https://www.facebook.com/clabki/?fref=ts"></a>
+                           <a class="instagram_link social_link" href="#"></a>
 
                         </div>
                     </li>
@@ -42,7 +49,7 @@
                     </li>
                     <li>
                         <div id="social_link_container_mobile">
-                            <a class="facebook_link social_link" href="#"></a>
+                            <a class="facebook_link social_link" href="https://www.facebook.com/clabki/?fref=ts"></a>
                             <a class="instagram_link social_link" href="#"></a>
                         </div>
                     </li>
@@ -53,14 +60,16 @@
             </nav>
         </header>
 		<section id="main_image_container">
-				<img id="main_image"  alt="">
+				<div id="main_image"  alt="">
+				</div>
 		</section>
 		<section class="section">
 				<div id="pincel0_separator" class="section_separator">
 					<img src="./Public/img/main/pincel1.png">
 				</div>
 				<div class="section-header">
-					<img  alt="">
+					<div  alt=""> 
+					</div>
 				</div>
 				<div  id="comunidad_sub_section" class="sub_section">
 					<section id="comunidad_sub_section_container" class="sub_section_container">
