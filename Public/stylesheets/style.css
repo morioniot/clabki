@@ -255,7 +255,7 @@ header {
 .sub_section_container{
 	align-items: center;
 	-webkit-align-items: center; /* Safari 7.0+ */
-	border: blue solid;
+/*	border: blue solid;*/
 	justify-content: center;
 	-webkit-justify-content: center; /* Safari 7.0+ */
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
@@ -386,8 +386,8 @@ div.text_image_group div.text_description {
 .img_description{
     justify-content: center;
     -webkit-justify-content: center; /* Safari 7.0+ */
-	border: black;
-	border-style: solid;
+/*	border: black;
+	border-style: solid;*/
   	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
