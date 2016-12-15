@@ -1,5 +1,6 @@
 <?php
     require_once(__DIR__.'/database/db_connection.php');
+    require_once(__DIR__.'/mail.php');
 
     //Creating a new sql connection
     $sqlConnection = new DatabaseConnection();
@@ -41,6 +42,11 @@
             throw new Exception($message, $sqlConnection->errno);
         }
 
-        echo('Hemos guardado tu respuesta!!!');
+        //Sending email
+        if($interested == '1') {
+            sendDeviceInfoMail( $email );
+        }
+
+        echo('Hemos almacenados tus comentarios!!!');
     }
 ?>

@@ -68,7 +68,7 @@
 					<img src="./Public/img/main/pincel1.png">
 				</div>
 				<div class="section-header">
-					<div  alt=""> 
+					<div  alt="">
 					</div>
 				</div>
 				<div  id="comunidad_sub_section" class="sub_section">

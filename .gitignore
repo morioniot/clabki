@@ -1,0 +1,5 @@
+# php libraries
+vendor
+
+#php composer file
+composer.phar
