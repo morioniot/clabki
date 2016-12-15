@@ -16,7 +16,7 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="./Public/stylesheets/joinus.css">
+        <link rel="stylesheet" href="./stylesheets/joinus.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
         <meta charset="utf-8">
         <title>Clabki | ¡Haz parte!</title>
@@ -59,7 +59,7 @@
             </nav>
         </header>
         <div id="shadow_container">
-            <img src="./Public/img/common/shadow.png" alt="shadow" />
+            <img src="./img/common/shadow.png" alt="shadow" />
         </div>
         <section id="main_container">
             <section id="info_and_form_container">
@@ -81,7 +81,7 @@
                     </p>
                 </div>
                 <div id="form_container">
-                    <form id="join_us_form" action="/app/joinus.php" method="post">
+                    <form id="join_us_form" action="../app/joinus.php" method="post">
                         <div id="form_fields_container">
                             <div class="small_field">
                                 <label for="name">NOMBRE</label>
@@ -120,7 +120,7 @@
                         <p class="bold_text">CLABKI<span id="exclamation">!</span></p>
                     </div>
                     <div class="widget_element" id="lines_container">
-                        <img src="./Public/img/joinus/lines.png" />
+                        <img src="./img/joinus/lines.png" />
                     </div>
                 </div>
             </section>
