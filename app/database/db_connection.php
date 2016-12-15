@@ -35,9 +35,9 @@
 				$this->DB_NAME = 'clabki';
 			}
 			elseif ($environment === 'production') {
-				$this->DB_HOSTNAME = '127.7.174.130';
-				$this->DB_USERNAME = 'admin3aaN3cM';
-				$this->DB_PASSWORD = 'MZiDhDdAg3Fa';
+				$this->DB_HOSTNAME = '127.10.170.130';
+				$this->DB_USERNAME = 'adminaHzNI42';
+				$this->DB_PASSWORD = 'ZD6isAd4gXPA';
 				$this->DB_NAME = 'clabki';
 			}
 		}
