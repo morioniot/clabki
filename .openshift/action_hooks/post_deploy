@@ -1,4 +1,5 @@
 #!/bin/bash
 
 export MY_PHPCOMPOSER=$OPENSHIFT_HOMEDIR/php/composer/bin/composer
+cd $OPENSHIFT_REPO_DIR
 php -dmemory_limit=1G $MY_PHPCOMPOSER install
