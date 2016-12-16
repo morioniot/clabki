@@ -20,8 +20,8 @@
 			);
 
 			if($this->connect_errno){
-				$message = 'Connection failed: '.$sql->connect_error;
-				throw new Exception($message, $sql->connect_errno);
+				$message = 'Connection failed: '.$this->connect_error;
+				throw new Exception($message, $this->connect_errno);
 			}
 
 			$this->set_charset("utf8");
