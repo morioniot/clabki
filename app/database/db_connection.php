@@ -29,14 +29,12 @@
 
 		private function initializeCredentials( $environment ) {
 			if($environment === 'development') {
-				echo("Entré aquí");
 				$this->DB_HOSTNAME = 'localhost';
 				$this->DB_USERNAME = 'root';
 				$this->DB_PASSWORD = '@MorionMysql2016';
 				$this->DB_NAME = 'clabki';
 			}
 			elseif ($environment === 'production') {
-				echo("Entré acá");
 				$this->DB_HOSTNAME = '127.10.170.130';
 				$this->DB_USERNAME = 'adminaHzNI42';
 				$this->DB_PASSWORD = 'ZD6isAd4gXPA';
