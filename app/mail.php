@@ -14,12 +14,12 @@
         $mail->SMTPSecure = 'tls';
         $mail->SMTPAuth = true;
         $mail->AuthType = 'XOAUTH2';
-        $mail->oauthUserEmail = 'miguel9ramos@gmail.com';
-        $mail->oauthClientId = '743771286329-r2qv1cemc4siplgft7iqgab47f5tm0ar.apps.googleusercontent.com';
-        $mail->oauthClientSecret = '1catvnLYtM4WgFBf6rAbe7Vy';
-        $mail->oauthRefreshToken = '1/iJyk2ApS2GhK0I5DbV1G-xvjFC9eP0eIZ22Sq4WqTQfMQ9t-xqijTtZJ2U5eHcyZ';
+        $mail->oauthUserEmail = 'comunidad.clabki@gmail.com';
+        $mail->oauthClientId = '427033392573-2taqpl1iplld5avora6mqda775ipe18v.apps.googleusercontent.com';
+        $mail->oauthClientSecret = 'xCVpPVwjVjvn0AFmMUc1Vz17';
+        $mail->oauthRefreshToken = '1/MZls6Ee2g_oTR1cnHCWpILrLf1muvmU51xZdR9LDFQM';
 
-        $mail->setFrom('miguel9ramos@gmail.com', 'Miguel Ramos');
+        $mail->setFrom('comunidad.clabki@gmail.com', 'Clabki');
         $mail->addAddress( $mail_address );
 
         $mail->isHTML( true );
