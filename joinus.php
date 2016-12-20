@@ -43,21 +43,28 @@
                         <a id="contact_us_link" href="./team.html"></a>
                     </li>
                 </ul>
-                <ul id="mobile_navigation">
-                    <li>
-                        <a id="home_link_mobile" href="./"></a>
-                    </li>
-                    <li>
-                        <div id="social_link_container_mobile">
-                            <a class="facebook_link social_link" href="#"></a>
-                            <a class="instagram_link social_link" href="#"></a>
-                        </div>
-                    </li>
-                    <li>
-                        <a id="contact_us_link_mobile" href="./team.html"></a>
-                    </li>
-                </ul>
+                <div id="mobile_navigation">
+                    <button id="mobile_nav_button"></button>
+                    <ul id="mobile_navigation_list">
+                        <li class="navigation_item">
+                            <a class="item_text" href="./">HOME</a>
+                            <hr>
+                        </li>
+                        <li class="navigation_item">
+                            <a class="item_text">FACEBOOK</a>
+                            <hr>
+                        </li>
+                        <li class="navigation_item">
+                            <a class="item_text">INSTAGRAM</a>
+                            <hr>
+                        </li>
+                        <li class="navigation_item">
+                            <a class="item_text" href="./team.html">CONOCENOS</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
+            <script src="./public/js/header.js" type="text/javascript"></script>
         </header>
         <div id="shadow_container">
             <img src="./public/img/common/shadow.png" alt="shadow" />
