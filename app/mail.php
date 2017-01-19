@@ -26,7 +26,7 @@
         $mail->CharSet = 'UTF-8';
         $mail->Subject = 'Información sobre el dispositivo del collar';
         $mail->Body = file_get_contents('../public/mail/device_info_mail.html');
-        $mail->addAttachment('../public/mail/device_info_mail.pdf');
+        $mail->addAttachment('../public/mail/dispositivo_clabki.pdf');
 
         $mail->send();
     }
