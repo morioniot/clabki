@@ -58,8 +58,8 @@
                             <a class="item_text">INSTAGRAM</a>
                             <hr>
                         </li>
-                        <li class="navigation_item">
-                            <a class="item_text" href="./team.html">CONOCENOS</a>
+                        <li id="joinus_mobile_link" class="navigation_item">
+                            <a class="item_text" href="./team.html"></a>
                         </li>
                     </ul>
                 </div>

@@ -121,6 +121,25 @@ header {
     width: 100%;
 }
 
+#joinus_mobile_link {
+    text-align: center;
+}
+
+#joinus_mobile_link a {
+    background: url('../img/common/conocenos_texto.png');
+    display: inline-block;
+    height: 29px;
+    padding: 0px;
+    width: 130px;
+}
+
+#joinus_mobile_link a:hover {
+    background: url('../img/common/conocenos_texto_activo.png');
+    height: 35px;
+    margin-bottom: -6px;
+    width: 156px;
+}
+
 .social_link {
     /*background-color: crimson;*/
     display: block;
@@ -167,8 +186,8 @@ header {
     color: #1a223c;
     cursor: pointer;
     font-family: mensch;
-    font-size: 24px;
-    height: 19px;;
+    font-size: 32px;
+    height: 25px;;
     padding: 5px;
 }
 
