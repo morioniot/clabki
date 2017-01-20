@@ -47,6 +47,6 @@
             sendDeviceInfoMail( $email );
         }
 
-        echo('Hemos almacenados tus comentarios!!!');
+        header('Location: '.'../submit_confirmation.html');
     }
 ?>

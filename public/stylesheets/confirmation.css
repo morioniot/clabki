@@ -1,0 +1,40 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dff4f5;
+}
+
+#shadow_container img {
+    height: 121px;
+    width: 100%;
+}
+
+#text_container {
+	color: #1a223c;
+	margin: auto;
+	max-width: 1170px;
+	text-align: center;
+	width: 100%;
+}
+
+#message_title {
+	font-family: mensch;
+	font-size: 66px;
+	margin-bottom: 12px;
+}
+
+#text_container hr {
+    border-top: solid 3px #1a223c;
+    margin: auto;
+    width: 254px;
+}
+
+#message_paragraph {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	margin-top: 12px;
+}
