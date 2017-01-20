@@ -70,7 +70,7 @@
             <img src="./public/img/common/shadow.png" alt="shadow" />
         </div>
         <section id="main_container">
-            <section id="info_and_form_container">
+            <section id="info_section">
                 <div id="info_paragraph">
                     <div id="info_title"></div>
                     <hr>
@@ -88,6 +88,8 @@
                         formulario.
                     </p>
                 </div>
+            </section>
+            <section id="form_section">
                 <div id="form_container">
                     <form id="join_us_form" action="app/joinus.php" method="post">
                         <div id="form_fields_container">
@@ -112,7 +114,7 @@
                     </form>
                 </div>
             </section>
-            <section id="followers_container">
+            <section id="followers_section">
                 <div id="facebook_widget">
                     <div class="widget_element" id="like_image_container">
                         <a href="#"></a>
