@@ -35,8 +35,8 @@
                     </li>
                     <li>
                         <div id="social_link_container">
-                            <a class="facebook_link social_link" href="https://www.facebook.com/clabki/?fref=ts"></a>
-                            <a class="instagram_link social_link" href="https://www.instagram.com/clabki/"></a>
+                            <a class="facebook_link social_link" target="_blank" href="https://www.facebook.com/clabki/?fref=ts"></a>
+                            <a class="instagram_link social_link" target="_blank" href="https://www.instagram.com/clabki/"></a>
                         </div>
                     </li>
                     <li>
@@ -118,7 +118,7 @@
             <section id="followers_section">
                 <div id="facebook_widget">
                     <div class="widget_element" id="like_image_container">
-                        <a href="https://www.facebook.com/clabki/?fref=ts"></a>
+                        <a target="_blank" href="https://www.facebook.com/clabki/?fref=ts"></a>
                     </div>
                     <div id="text_count_container" class="widget_element">
                         <p>A
