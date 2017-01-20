@@ -72,6 +72,7 @@
         <section id="main_container">
             <section id="info_section">
                 <div id="info_paragraph">
+                    <div id="arrow_image"></div>
                     <div id="info_title"></div>
                     <hr>
                     <p class="info_text">

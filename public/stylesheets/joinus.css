@@ -47,12 +47,22 @@ body {
     -webkit-flex: 1;       /* Safari 6.1+. iOS 7.1+, BB10 */
     -ms-flex: 1;           /* IE 10 */
     flex: 1;
+    position: relative;
 }
 
 #info_paragraph hr {
     border-top: solid 3px #1a223c;
     margin: auto;
     width: 254px;
+}
+
+#arrow_image {
+    background: url('../img/joinus/arrow.png');
+    height: 294px;
+    left: 10px;
+    position: absolute;
+    top: 420px;
+    width: 70px;
 }
 
 #info_title {
@@ -261,6 +271,12 @@ body {
 .widget_element {
     display: inline-block;
     vertical-align: top;
+}
+
+@media screen and (max-width: 1220px) {
+    #arrow_image{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 950px) {
