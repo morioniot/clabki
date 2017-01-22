@@ -1,4 +1,4 @@
-let display = false;
+var display = false;
 const navButton = document.getElementById('mobile_nav_button');
 navButton.onclick = function() {
     const listMenu = document.getElementById('mobile_navigation_list');

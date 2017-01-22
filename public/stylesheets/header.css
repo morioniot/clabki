@@ -168,7 +168,7 @@ header {
     cursor: pointer;
     font-family: mensch;
     font-size: 24px;
-    height: 19px;;
+    height: 19px;
     padding: 5px;
 }
 
@@ -198,7 +198,7 @@ header {
     }
 
     #contact_navigation {
-        margin-right: : 10px;
+        margin-right:10px;
         width: 180px;
     }
 
