@@ -21,6 +21,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
         <meta charset="utf-8">
         <title>Clabki | ¡Haz parte!</title>
+        <script type="text/javascript">
+            window.smartlook||(function(d) {
+            var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+            var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+            c.charset='utf-8';c.src='//rec.smartlook.com/recorder.js';h.appendChild(c);
+            })(document);
+            smartlook('init', 'd8012322507d41d8e95fb8247096bca00669fc19');
+        </script>
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,7 +37,6 @@
 
           ga('create', 'UA-90695201-1', 'auto');
           ga('send', 'pageview');
-
         </script>        
     </head>
     <body>
