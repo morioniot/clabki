@@ -61,11 +61,11 @@
                             <hr>
                         </li>
                         <li class="navigation_item">
-                            <a class="item_text">FACEBOOK</a>
+                            <a class="item_text" target="_blank" href="https://www.facebook.com/clabki/?fref=ts">FACEBOOK</a>
                             <hr>
                         </li>
                         <li class="navigation_item">
-                            <a class="item_text">INSTAGRAM</a>
+                            <a class="item_text" target="_blank" href="https://www.instagram.com/clabki/">INSTAGRAM</a>
                             <hr>
                         </li>
                         <li class="navigation_item">
