@@ -163,8 +163,8 @@ body {
 #like_image_container a {
     background: url('../img/joinus/facebook_like.png');
     display: block;
-    height: 175px;
-    width: 210px;
+    height: 190px;
+    width: 168px;
 }
 
 #text_count_container {
@@ -320,11 +320,11 @@ body {
 
     #like_image_container a {
         background: url('../img/joinus/facebook_like.png');
-        background-size: 168px 140px;
+        background-size: 134px 152px;
         background-repeat: no-repeat;
         display: block;
-        height: 140px;
-        width: 168px;
+        height: 152px;
+        width: 134px;
     }
 
     #lines_container img {
@@ -397,7 +397,7 @@ body {
 
     #text_count_container {
         margin-left: 30px;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     #lines_container img{
