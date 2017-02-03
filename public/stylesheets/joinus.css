@@ -226,8 +226,10 @@ body {
     width: 80%;
 }
 
-.info_text span {
+.info_text a {
+    color: #fa5b61;
     font-weight: 700;
+    text-decoration: underline;
 }
 
 .small_field, .large_field, .check_box_container {

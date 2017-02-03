@@ -99,7 +99,8 @@
                     </p>
                     <p class="info_text">
                         No te desanimes, puedes hacer parte de Clabki desde ya
-                        <span>siguiéndonos en nuestras redes sociales</span> en
+                        <a target="_blank" href="https://www.facebook.com/clabki/?fref=ts">
+                        siguiéndonos en nuestras redes sociales</a> en
                         donde te contaremos cómo vamos avanzando. En caso de que
                         quieras dejarnos algún comentario o saber más sobre el
                         dispositivo para el collar, puedes usar el siguiente
