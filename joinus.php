@@ -37,7 +37,7 @@
 
           ga('create', 'UA-90695201-1', 'auto');
           ga('send', 'pageview');
-        </script>        
+        </script>
     </head>
     <body>
         <header>
@@ -133,6 +133,7 @@
                 </div>
             </section>
             <section id="followers_section">
+                <span id="click_instruction"></span>
                 <div id="facebook_widget">
                     <div class="widget_element" id="like_image_container">
                         <a target="_blank" href="https://www.facebook.com/clabki/?fref=ts"></a>

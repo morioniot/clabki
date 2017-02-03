@@ -138,20 +138,30 @@ body {
 }
 
 #followers_section {
+    align-items: center;
+    -webkit-align-items: center;
     /*background-color: darkcyan;*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
     display: flex;
-    margin-top: 40px;
+    flex-direction: column;;
+    -webkit-flex-direction: column; /* Safari 6.1+ */
     position: relative;
     width: 50%;
+}
+
+#click_instruction {
+    background: url('../img/joinus/hazclick.png');
+    height: 54px;
+    width: 411px;
 }
 
 #facebook_widget {
     /*background-color: orangered;*/
     left: -6px;
     margin: auto;
+    margin-top: 45px;
     padding: 25px 0px;
     position: relative;
 }
@@ -316,6 +326,13 @@ body {
         padding-bottom: 25px;
         padding-top: 25px;
         width: 100%;
+    }
+
+    #click_instruction {
+        background-size: 308px 41px;
+        background-repeat: no-repeat;
+        height: 41px;
+        width: 308px;
     }
 
     #like_image_container a {
