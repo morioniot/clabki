@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="./public/stylesheets/joinus.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
         <meta charset="utf-8">
+        <link rel="icon" href="public/img/common/favicon.png" type="image/png">
         <title>Clabki | ¡Haz parte!</title>
         <script type="text/javascript">
             window.smartlook||(function(d) {
